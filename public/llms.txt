@@ -1,0 +1,79 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+ברוכים הבאים לחנות הטיולים המקוונת שלנו! ספרים, חולצות ואביזרים לטיולים אונליין במחירים מעולים. הכל במקום אחד, משלוח מהיר ושירות מכל הלב. קנה עכשיו!
+
+### חוויות
+https://example.com/experiences
+גלה חוויות טיולים בלתי נשכחות עם ציוד מקצועי, ספרי מדריך מובחרים וחולצות טיולים איכותיות. כל מה שצריך להפוך כל הרפתקה לרגע מושלם. הזמן עכשיו!
+
+### אודות
+https://example.com/about
+אנחנו מאמינים שכל טיול מתחיל בלב. למד על החזון שלנו, הערכים שמנחים אותנו ולמה אלפי מטיילים בוחרים בחנות ציוד הטיולים שלנו לכל הרפתקה חדשה. הכר אותנו!
+
+### צור קשר
+https://example.com/contact
+יש שאלה על ספרים, חולצות או אביזרים לטיולים אונליין? צוות המומחים שלנו כאן בשבילך! צור קשר עכשיו וקבל ייעוץ אישי, מענה מהיר ושירות חם מכל הלב. נשמח לעזור!
+
+### Products
+https://example.com/products
+המוצרים שלנו - ליובאוויטשער רופן- טיולים ובידור מכל הלב
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - ליובאוויטשער רופן- טיולים ובידור מכל הלב
+
+### Category
+https://example.com/category/:slug
+מוצרים - ליובאוויטשער רופן- טיולים ובידור מכל הלב
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
