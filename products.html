@@ -394,32 +394,56 @@
   </main>
   
 
-<section id="layout-1777552199833" class="layout-section" data-zappy-component="true" style="width: 100%; padding: 60px 0; direction: rtl;" data-component-id="imagecard-overlay-3col">
-  <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 1.5rem;">
-  <h2 style="font-size: 32px; font-weight: 700; color: #1F2937; margin-bottom: 40px; text-align: center; font-family: system-ui, -apple-system, sans-serif;">כותרת שלך כאן</h2>
-  <div class="overlay-card-grid" style="--zappy-grid-cols: repeat(auto-fit, minmax(280px, 1fr)); display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px;" data-zappy-explicit-columns="true">
-    <div style="position: relative; border-radius: 12px; overflow: hidden; min-height: 300px;">
-      <img data-placeholder="layout-image-1777552199833-overlay1-nnzuvspsq" data-context="תיאור תמונה 1" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='350'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%231F3A5F;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%231F3A5F20;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='18' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3E%D7%AA%D7%99%D7%90%D7%95%D7%A8%20%D7%AA%D7%9E%D7%95%D7%A0%D7%94%201%3C/text%3E%3C/svg%3E" alt="תיאור תמונה 1" style="width: 100%; height: 100%; display: block; object-fit: cover; position: absolute; top: 0; left: 0;" class="layout-placeholder-image">
-      <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.7)); padding: 30px 24px 24px;">
-        <h3 style="font-size: 20px; font-weight: 600; color: #FFFFFF; margin-bottom: 8px; font-family: system-ui, -apple-system, sans-serif;">כותרת כרטיס 1</h3>
-        <p style="font-size: 14px; line-height: 1.5; color: #FFFFFF; opacity: 0.9; font-family: system-ui, -apple-system, sans-serif;">טקסט תיאור קצר</p>
+<section id="layout-1777552199833" class="layout-section" dir="rtl" style="width: 100%; padding: 80px 24px; background: linear-gradient(135deg, #1F3A5F 0%, #0d2240 60%, #162d4e 100%); direction: rtl;">
+  <div style="max-width: 1200px; margin: 0 auto;">
+    <!-- Header -->
+    <div style="text-align: center; margin-bottom: 56px;">
+      <p style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #D9A441; margin-bottom: 12px;">טיולים ובידור מכל הלב</p>
+      <h2 style="font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; color: #E8ECF1; margin: 0 0 12px;">החוויות שלנו</h2>
+      <p style="font-size: 16px; color: #D9A441; margin: 0;">הרפתקאות בלתי נשכחות לכל המשפחה</p>
+    </div>
+    <!-- Asymmetric Mosaic Grid -->
+    <div style="--zappy-grid-cols: 1fr 1fr; display: grid; grid-template-columns: 1fr 1fr; gap: 20px;" data-zappy-explicit-columns="true">
+      <!-- Large left card -->
+      <div style="position: relative; border-radius: 20px; overflow: hidden; min-height: 440px; box-shadow: 0 14px 30px rgba(0,0,0,0.35); transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='translateY(0)'">
+        <img data-placeholder="layout-image-1777552199833-mosaic-large" data-context="חוויה ראשית" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='500'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%231F3A5F'/%3E%3Cstop offset='100%25' style='stop-color:%230d2240'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23g1)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='20' fill='%23D9A441' text-anchor='middle' dy='.3em'%3Eתמונה ראשית%3C/text%3E%3C/svg%3E" alt="חוויה ראשית" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; display: block;" class="layout-placeholder-image">
+        <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(13,34,64,0.92) 40%, transparent 100%);"></div>
+        <div style="position: absolute; bottom: 0; right: 0; padding: 32px;">
+          <div style="width: 40px; height: 3px; background: #D9A441; border-radius: 2px; margin-bottom: 14px; margin-right: auto;"></div>
+          <h3 style="font-size: 26px; font-weight: 800; color: #ffffff; margin: 0 0 10px;">טיולים משפחתיים</h3>
+          <p style="font-size: 15px; color: #E8ECF1; margin: 0; line-height: 1.6; opacity: 0.9;">חוויות מרגשות שתישארנה בזיכרון לנצח</p>
+        </div>
+      </div>
+      <!-- Right column: two stacked cards -->
+      <div style="display: flex; flex-direction: column; gap: 20px;">
+        <!-- Top right card -->
+        <div style="position: relative; border-radius: 20px; overflow: hidden; min-height: 205px; box-shadow: 0 8px 20px rgba(0,0,0,0.3); transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='translateY(0)'">
+          <img data-placeholder="layout-image-1777552199833-mosaic-top" data-context="בידור קבוצתי" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='250'%3E%3Cdefs%3E%3ClinearGradient id='g2' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%231F3A5F'/%3E%3Cstop offset='100%25' style='stop-color:%234A607D'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23g2)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='18' fill='%23D9A441' text-anchor='middle' dy='.3em'%3Eבידור קבוצתי%3C/text%3E%3C/svg%3E" alt="בידור קבוצתי" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; display: block;" class="layout-placeholder-image">
+          <div style="position: absolute; inset: 0; background: linear-gradient(to left, rgba(13,34,64,0.85) 50%, transparent 100%);"></div>
+          <div style="position: absolute; inset: 0; display: flex; align-items: center; padding: 28px;">
+            <div>
+              <h3 style="font-size: 20px; font-weight: 700; color: #ffffff; margin: 0 0 8px;">אירועי בידור</h3>
+              <p style="font-size: 14px; color: #D9A441; margin: 0; font-weight: 600;">לקבוצות ואירועים</p>
+            </div>
+          </div>
+        </div>
+        <!-- Bottom right card -->
+        <div style="position: relative; border-radius: 20px; overflow: hidden; min-height: 205px; box-shadow: 0 8px 20px rgba(0,0,0,0.3); transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='translateY(0)'">
+          <img data-placeholder="layout-image-1777552199833-mosaic-bottom" data-context="חוויות ייחודיות" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='250'%3E%3Cdefs%3E%3ClinearGradient id='g3' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%230d2240'/%3E%3Cstop offset='100%25' style='stop-color:%231F3A5F'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23g3)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='18' fill='%23D9A441' text-anchor='middle' dy='.3em'%3Eחוויות ייחודיות%3C/text%3E%3C/svg%3E" alt="חוויות ייחודיות" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; display: block;" class="layout-placeholder-image">
+          <div style="position: absolute; inset: 0; background: linear-gradient(to left, rgba(13,34,64,0.85) 50%, transparent 100%);"></div>
+          <div style="position: absolute; inset: 0; display: flex; align-items: center; padding: 28px;">
+            <div>
+              <h3 style="font-size: 20px; font-weight: 700; color: #ffffff; margin: 0 0 8px;">חוויות ייחודיות</h3>
+              <p style="font-size: 14px; color: #D9A441; margin: 0; font-weight: 600;">רגעים שלא נשכחים</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div style="position: relative; border-radius: 12px; overflow: hidden; min-height: 300px;">
-      <img data-placeholder="layout-image-1777552199833-overlay2-xy3aawdsz" data-context="תיאור תמונה 2" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='350'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%231F3A5F;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%231F3A5F20;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='18' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3E%D7%AA%D7%99%D7%90%D7%95%D7%A8%20%D7%AA%D7%9E%D7%95%D7%A0%D7%94%202%3C/text%3E%3C/svg%3E" alt="תיאור תמונה 2" style="width: 100%; height: 100%; display: block; object-fit: cover; position: absolute; top: 0; left: 0;" class="layout-placeholder-image">
-      <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.7)); padding: 30px 24px 24px;">
-        <h3 style="font-size: 20px; font-weight: 600; color: #FFFFFF; margin-bottom: 8px; font-family: system-ui, -apple-system, sans-serif;">כותרת כרטיס 2</h3>
-        <p style="font-size: 14px; line-height: 1.5; color: #FFFFFF; opacity: 0.9; font-family: system-ui, -apple-system, sans-serif;">טקסט תיאור קצר</p>
-      </div>
+    <!-- CTA -->
+    <div style="text-align: center; margin-top: 48px;">
+      <a href="/experiences" style="display: inline-block; background: linear-gradient(180deg, #E2AB32 0%, #C98C18 100%); color: #1F3A5F; padding: 16px 44px; border-radius: 6px; font-weight: 700; font-size: 16px; text-decoration: none; letter-spacing: 0.04em; box-shadow: 0 4px 16px rgba(217,164,65,0.35); transition: transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(217,164,65,0.45)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 4px 16px rgba(217,164,65,0.35)'">גלו את כל החוויות</a>
     </div>
-    <div style="position: relative; border-radius: 12px; overflow: hidden; min-height: 300px;">
-      <img data-placeholder="layout-image-1777552199833-overlay3-oh465838v" data-context="תיאור תמונה 3" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='350'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%231F3A5F;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%231F3A5F20;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='18' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3E%D7%AA%D7%99%D7%90%D7%95%D7%A8%20%D7%AA%D7%9E%D7%95%D7%A0%D7%94%203%3C/text%3E%3C/svg%3E" alt="תיאור תמונה 3" style="width: 100%; height: 100%; display: block; object-fit: cover; position: absolute; top: 0; left: 0;" class="layout-placeholder-image">
-      <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.7)); padding: 30px 24px 24px;">
-        <h3 style="font-size: 20px; font-weight: 600; color: #FFFFFF; margin-bottom: 8px; font-family: system-ui, -apple-system, sans-serif;">כותרת כרטיס 3</h3>
-        <p style="font-size: 14px; line-height: 1.5; color: #FFFFFF; opacity: 0.9; font-family: system-ui, -apple-system, sans-serif;">טקסט תיאור קצר</p>
-      </div>
-    </div>
-  </div>
   </div>
 </section>
 
