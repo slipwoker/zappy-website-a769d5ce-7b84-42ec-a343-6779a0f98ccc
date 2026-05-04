@@ -5665,20 +5665,6 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ## Product Catalog
 
-### ספר טסט של איפיאל
-URL: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/spr-tst-shl-aypyal-ltueqs
-Price: 79.00 ILS (sale, was 100.00 ILS)
-Availability: In stock
-
----
-
-### טיול בשביל ישראל (Copy)
-URL: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/tyvl-bshbyl-yshral-copy-ow3fxd
-Price: 500.00 ILS (sale, was 800.00 ILS)
-Availability: In stock
-
----
-
 ### טיול בשביל ישראל
 URL: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/tyvl-bshbyl-yshral-rutll0
 Price: 500.00 ILS (sale, was 800.00 ILS)

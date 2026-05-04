@@ -72,19 +72,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 3**
-
-### ספר טסט של איפיאל
-https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/spr-tst-shl-aypyal-ltueqs
-- Price: 79.00 ILS (sale, was 100.00 ILS)
-- Availability: In stock
-- Image: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/image-product-image-1777903022763-un5ebu.webp
-
-### טיול בשביל ישראל (Copy)
-https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/tyvl-bshbyl-yshral-copy-ow3fxd
-- Price: 500.00 ILS (sale, was 800.00 ILS)
-- Availability: In stock
-- Image: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/product-1777553168916-wdz66k.webp
+**Total active products: 1**
 
 ### טיול בשביל ישראל
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/tyvl-bshbyl-yshral-rutll0
