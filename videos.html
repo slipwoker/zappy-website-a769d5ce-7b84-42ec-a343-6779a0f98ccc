@@ -223,7 +223,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="סרטוני יוטיוב">
     <meta name="twitter:description" content="ליובאוויטשער רופן- טיולים ובידור מכל הלב - סרטוני יוטיוב">
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app#organization","name":"ליובאוויטשער רופן- טיולים ובידור מכל הלב","url":"https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app","description":"אתר חנות אונליין","address":{"@type":"PostalAddress","streetAddress":"בניין 23, בית 58 משה סנה, ירושלים, ישראל, 9735754, ישראל"},"contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":"ifiel770@gmail.com","telephone":"0557706527"}]},{"@type":"WebSite","@id":"https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app#website","url":"https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app","name":"ליובאוויטשער רופן- טיולים ובידור מכל הלב","publisher":{"@id":"https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app"},{"@type":"ListItem","position":2,"name":"Youtube","item":"https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/youtube"}]}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app#organization","name":"ליובאוויטשער רופן- טיולים ובידור מכל הלב","url":"https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app","description":"אתר חנות אונליין","address":{"@type":"PostalAddress","streetAddress":"בניין 23, בית 58 משה סנה, ירושלים, ישראל, 9735754, ישראל"},"contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":"ifiel770@gmail.com","telephone":"0557706527"}]},{"@type":"WebSite","@id":"https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app#website","url":"https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app","name":"ליובאוויטשער רופן- טיולים ובידור מכל הלב","publisher":{"@id":"https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app"},{"@type":"ListItem","position":2,"name":"Videos","item":"https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/videos"}]}]}</script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- Favicons -->
@@ -970,7 +970,7 @@
 </style>
 
     <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:url" content="https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/youtube">
+    <meta property="og:url" content="https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/videos">
     <meta property="og:type" content="article">
     
     
@@ -985,1660 +985,1576 @@
     
     
     
-    <meta name="twitter:image:alt" content="סרטוני יוטיוב"><style id="zappy-ai-page-styles">.youtube-hero-section {
+    <meta name="twitter:image:alt" content="סרטוני יוטיוב"><style id="zappy-ai-page-styles">.videos-hero-section {
   position: relative;
   background-color: #FFFDF8;
-  background-image: linear-gradient(180deg, #FFFDF8 0%, #F5EEDF 100%);
+  background-image:
+    repeating-linear-gradient(0deg, rgba(217, 207, 190, 0.13) 0, rgba(217, 207, 190, 0.13) 1px, transparent 1px, transparent 28px),
+    repeating-linear-gradient(90deg, rgba(217, 207, 190, 0.07) 0, rgba(217, 207, 190, 0.07) 1px, transparent 1px, transparent 28px),
+    linear-gradient(180deg, #FFFDF8 0%, #F5EEDF 100%);
   color: var(--text-dark);
-  padding: 140px 24px 80px;
+  padding: 120px 24px 64px;
   overflow: visible;
   direction: rtl;
 }
 
-/* Background pattern */
-.youtube-hero-section .yhs-bg-pattern {
+/* Top accent rule */
+.videos-hero-section .videos-hero-top-rule {
+  position: absolute;
+  top: 0;
+  inset-inline-start: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent 0%, var(--accent) 30%, var(--accent) 70%, transparent 100%);
+  opacity: 0.75;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Grid background */
+.videos-hero-section .videos-hero-grid-bg {
   position: absolute;
   inset: 0;
-  background-color: #F7F1E6;
-  background-image: repeating-linear-gradient(
-    0deg,
-    rgba(217,207,190,0.18) 0,
-    rgba(217,207,190,0.18) 1px,
-    transparent 1px,
-    transparent 28px
-  );
   pointer-events: none;
   z-index: 0;
 }
 
 /* Container */
-.youtube-hero-section .yhs-container {
+.videos-hero-section .videos-hero-container {
   position: relative;
   z-index: 1;
   max-width: 1200px;
   margin: 0 auto;
-}
-
-/* Two-column grid: 6:4 ratio, text right, card left */
-.youtube-hero-section .yhs-grid {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 48px;
+  grid-template-columns: 5fr 7fr;
+  gap: 32px;
   align-items: center;
   direction: rtl;
 }
 
-@media (min-width: 768px) {
-  .youtube-hero-section .yhs-grid {
-    grid-template-columns: 6fr 4fr;
-    gap: 56px;
-  }
-}
-
-/* ─── RIGHT COLUMN: Text Content ─── */
-.youtube-hero-section .yhs-content {
+/* ── RIGHT COLUMN: TEXT ── */
+.videos-hero-section .videos-hero-text-col {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: right;
+  gap: 0;
 }
 
-/* Eyebrow label */
-.youtube-hero-section .yhs-eyebrow {
+.videos-hero-section .videos-hero-eyebrow {
   display: inline-block;
-  font-family: 'Assistant', 'Heebo', sans-serif;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--accent);
-  border-bottom: 1.5px solid var(--accent);
-  padding-bottom: 3px;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
+  padding: 4px 10px;
+  border: 1px solid rgba(217, 164, 65, 0.35);
+  border-radius: 2px;
+  background: rgba(217, 164, 65, 0.07);
 }
 
-/* H1 Headline */
-.youtube-hero-section .yhs-headline {
-  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
-  font-size: clamp(40px, 5vw, 68px);
+.videos-hero-section .videos-hero-h1 {
+  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  font-size: 58px;
   font-weight: 700;
-  letter-spacing: -0.02em;
   line-height: 1.1;
-  color: var(--primary);
-  margin: 0 0 20px;
+  letter-spacing: -0.02em;
+  color: var(--text-dark);
+  margin: 0 0 20px 0;
+  text-align: right;
 }
 
-.youtube-hero-section .yhs-headline em {
-  font-style: italic;
-  background: linear-gradient(180deg, #E2AB32 0%, #C98C18 100%);
+.videos-hero-section .videos-hero-h1-accent {
+  background: linear-gradient(180deg, #2A4773 0%, #1F355C 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-/* Subtitle H3 */
-.youtube-hero-section .yhs-subtitle {
-  font-family: 'Assistant', 'Heebo', sans-serif;
+.videos-hero-section .videos-hero-subtitle {
+  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
   font-size: 18px;
-  font-weight: 500;
-  line-height: 1.6;
-  color: #233A63;
-  margin: 0 0 32px;
-  max-width: 500px;
+  font-weight: 400;
+  line-height: 1.65;
+  color: #4E5662;
+  margin: 0 0 32px 0;
+  text-align: right;
+  max-width: 420px;
 }
 
-/* CTA Row */
-.youtube-hero-section .yhs-cta-row {
+/* CTA row */
+.videos-hero-section .videos-hero-ctas {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  gap: 14px;
-  margin-bottom: 36px;
+  gap: 12px;
   align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
 }
 
-@media (max-width: 480px) {
-  .youtube-hero-section .yhs-cta-row {
-    flex-direction: column;
-    align-items: stretch;
-    width: 100%;
-  }
-}
-
-/* Primary CTA */
-.youtube-hero-section .yhs-btn-primary {
+.videos-hero-section .videos-btn-primary {
   display: inline-block;
   background: linear-gradient(180deg, #E2AB32 0%, #C98C18 100%);
   color: #FFFDF8;
-  padding: 14px 34px;
+  padding: 13px 28px;
   border-radius: 2px;
   border: 1px solid #B97D11;
-  font-family: 'Assistant', 'Heebo', sans-serif;
+  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+  font-size: 15px;
   font-weight: 700;
-  font-size: 16px;
   text-decoration: none;
-  box-shadow: 0 4px 10px rgba(157,112,20,0.28);
-  transition: all 0.25s ease;
-  text-align: center;
+  box-shadow: 0 4px 10px rgba(157, 112, 20, 0.28);
+  transition: all 0.22s ease;
+  white-space: nowrap;
 }
 
-.youtube-hero-section .yhs-btn-primary:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 18px rgba(201,140,24,0.35);
+.videos-hero-section .videos-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(201, 140, 24, 0.35);
 }
 
-/* Secondary CTA */
-.youtube-hero-section .yhs-btn-secondary {
+.videos-hero-section .videos-btn-secondary {
   display: inline-block;
   background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 100%);
   color: var(--primary);
-  padding: 14px 34px;
+  padding: 13px 28px;
   border-radius: 2px;
   border: 1px solid #BFC5CF;
-  font-family: 'Assistant', 'Heebo', sans-serif;
+  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+  font-size: 15px;
   font-weight: 700;
-  font-size: 16px;
   text-decoration: none;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(61,50,33,0.12);
-  transition: all 0.25s ease;
-  text-align: center;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 2px 6px rgba(61, 50, 33, 0.12);
+  transition: all 0.22s ease;
+  white-space: nowrap;
 }
 
-.youtube-hero-section .yhs-btn-secondary:hover {
+.videos-hero-section .videos-btn-secondary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(61,50,33,0.16);
+  box-shadow: 0 6px 14px rgba(61, 50, 33, 0.16);
 }
 
-/* Trust Bar */
-.youtube-hero-section .yhs-trust-bar {
+/* Trust bar */
+.videos-hero-section .videos-hero-trust {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 0;
   flex-wrap: wrap;
-  row-gap: 10px;
 }
 
-.youtube-hero-section .yhs-trust-item {
+.videos-hero-section .videos-trust-item {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 7px;
-  font-family: 'Assistant', 'Heebo', sans-serif;
+  gap: 6px;
+  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
   font-size: 13px;
   font-weight: 600;
-  color: #233A63;
-  padding: 0 14px;
+  color: #4E5662;
+  padding: 0 14px 0 0;
 }
 
-.youtube-hero-section .yhs-trust-item:first-child {
+.videos-hero-section .videos-trust-item:first-child {
+  padding-inline-end: 14px;
   padding-inline-start: 0;
 }
 
-.youtube-hero-section .yhs-trust-item .fa-star {
+.videos-hero-section .videos-trust-item .fa-solid {
   color: var(--accent);
-  font-size: 12px;
+  font-size: 13px;
 }
 
-.youtube-hero-section .yhs-trust-item .fa-users,
-.youtube-hero-section .yhs-trust-item .fa-shield-halved {
-  color: var(--primary);
-  font-size: 12px;
-}
-
-.youtube-hero-section .yhs-trust-divider {
+.videos-hero-section .videos-trust-sep {
+  display: inline-block;
   width: 1px;
-  height: 18px;
-  background: #D9CFBE;
-  opacity: 0.7;
+  height: 16px;
+  background: var(--border-light);
+  margin-inline-end: 14px;
   flex-shrink: 0;
 }
 
-/* ─── LEFT COLUMN: Card ─── */
-.youtube-hero-section .yhs-card-col {
-  position: relative;
+/* ── LEFT COLUMN: GLASS CARD ── */
+.videos-hero-section .videos-hero-card-col {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Passport stamp decoration */
-.youtube-hero-section .yhs-passport-stamp {
-  position: absolute;
-  inset-inline-end: -24px;
-  top: -28px;
-  width: 130px;
-  height: 130px;
-  pointer-events: none;
-  z-index: 0;
-  opacity: 0.8;
-}
-
-@media (max-width: 768px) {
-  .youtube-hero-section .yhs-passport-stamp {
-    display: none;
-  }
-}
-
-/* Route lines decoration */
-.youtube-hero-section .yhs-route-lines {
-  position: absolute;
-  bottom: -20px;
-  inset-inline-start: -20px;
-  width: 110%;
-  height: 120px;
-  pointer-events: none;
-  z-index: 0;
-  overflow: hidden;
-}
-
-@media (max-width: 768px) {
-  .youtube-hero-section .yhs-route-lines {
-    display: none;
-  }
-}
-
-/* Glass Card */
-.youtube-hero-section .yhs-glass-card {
-  position: relative;
-  z-index: 2;
-  background: rgba(255, 253, 248, 0.92);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  border: 1px solid #D9CFBE;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 8px 18px rgba(61,50,33,0.16), 0 2px 6px rgba(61,50,33,0.08);
+.videos-hero-section .videos-glass-card {
+  background: rgba(255, 253, 248, 0.88);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid var(--border-light);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(61, 50, 33, 0.14), 0 2px 8px rgba(61, 50, 33, 0.08);
+  padding: 20px;
   width: 100%;
-  max-width: 420px;
-  transition: all 0.25s ease;
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.youtube-hero-section .yhs-glass-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 14px 30px rgba(61,50,33,0.22);
-}
-
-/* Thumbnail */
-.youtube-hero-section .yhs-thumbnail-wrap {
+/* Main thumbnail */
+.videos-hero-section .videos-main-thumb {
   position: relative;
-  width: 100%;
-  aspect-ratio: 16/9;
+  border-radius: 12px;
   overflow: hidden;
-  background: #E8ECF1;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--secondary);
 }
 
-.youtube-hero-section .yhs-thumbnail-wrap img {
+.videos-hero-section .videos-main-thumb-img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 0;
-  border: none;
-  box-shadow: none;
+  border-radius: 12px;
 }
 
-/* Play Button Overlay */
-.youtube-hero-section .yhs-play-overlay {
+.videos-hero-section .videos-play-overlay {
   position: absolute;
   inset: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(31, 58, 95, 0.12);
-  transition: background 0.25s ease;
+  background: rgba(31, 53, 92, 0.18);
+  border-radius: 12px;
+  pointer-events: none;
 }
 
-.youtube-hero-section .yhs-glass-card:hover .yhs-play-overlay {
-  background: rgba(31, 58, 95, 0.22);
-}
-
-.youtube-hero-section .yhs-play-btn {
+.videos-hero-section .videos-play-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #EDBB49 0%, #D69D24 52%, #B97D11 100%);
   display: flex;
   align-items: center;
   justify-content: center;
-  filter: drop-shadow(0 4px 12px rgba(31,58,95,0.4));
-  transition: transform 0.2s ease;
+  box-shadow: 0 4px 18px rgba(157, 112, 20, 0.45);
+  color: #fff;
+  font-size: 18px;
+  padding-inline-start: 3px;
 }
 
-.youtube-hero-section .yhs-glass-card:hover .yhs-play-btn {
-  transform: scale(1.08);
+.videos-hero-section .videos-main-label {
+  position: absolute;
+  bottom: 10px;
+  inset-inline-end: 10px;
+  background: rgba(31, 53, 92, 0.82);
+  color: #FAF9F6;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
 }
 
-/* Card Meta */
-.youtube-hero-section .yhs-card-meta {
-  padding: 18px 20px 20px;
-  text-align: right;
+/* Thumbnail row */
+.videos-hero-section .videos-thumb-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
   direction: rtl;
 }
 
-.youtube-hero-section .yhs-card-label {
-  font-family: 'Assistant', 'Heebo', sans-serif;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: 8px;
-}
-
-.youtube-hero-section .yhs-card-title {
-  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.35;
-  color: var(--primary);
-  margin: 0 0 12px;
-}
-
-.youtube-hero-section .yhs-card-info {
+.videos-hero-section .videos-thumb-card {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--bg-light);
+  border: 1px solid var(--border-light);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.22s ease, transform 0.22s ease;
 }
 
-.youtube-hero-section .yhs-card-info-item {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 5px;
-  font-family: 'Assistant', 'Heebo', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  color: #6E7480;
+.videos-hero-section .videos-thumb-card:hover {
+  box-shadow: 0 6px 16px rgba(61, 50, 33, 0.14);
+  transform: translateY(-2px);
 }
 
-.youtube-hero-section .yhs-card-info-item i {
-  font-size: 11px;
-  color: var(--primary);
-  opacity: 0.7;
-}
-
-.youtube-hero-section .yhs-card-info-sep {
-  color: #D9CFBE;
-  font-size: 14px;
-  line-height: 1;
-}
-
-/* Bottom Gold Rule */
-.youtube-hero-section .yhs-bottom-rule {
-  position: absolute;
-  bottom: 0;
-  inset-inline-start: 0;
+.videos-hero-section .videos-thumb-img-wrap {
+  position: relative;
   width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent 0%, #D9A441 30%, #E2AB32 50%, #D9A441 70%, transparent 100%);
-  opacity: 0.55;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.videos-hero-section .videos-thumb-placeholder {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.videos-hero-section .videos-thumb-placeholder-1 {
+  background: linear-gradient(135deg, #2A4773 0%, #3a6b9e 50%, #D9A441 100%);
+}
+
+.videos-hero-section .videos-thumb-placeholder-2 {
+  background: linear-gradient(135deg, #4a7a4e 0%, #2d8a6e 50%, #E8ECF1 100%);
+}
+
+.videos-hero-section .videos-thumb-play-sm {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   pointer-events: none;
 }
 
-/* ─── RESPONSIVE ─── */
-@media (max-width: 768px) {
-  .youtube-hero-section {
-    padding: 110px 16px 60px;
-  }
+.videos-hero-section .videos-thumb-play-sm .fa-play {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(217, 164, 65, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(157, 112, 20, 0.4);
+  padding: 8px;
+  padding-inline-start: 10px;
+}
 
-  .youtube-hero-section .yhs-grid {
+.videos-hero-section .videos-thumb-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 8px 10px 10px;
+  text-align: right;
+}
+
+.videos-hero-section .videos-thumb-title {
+  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 1.3;
+}
+
+.videos-hero-section .videos-thumb-meta {
+  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+/* Card footer */
+.videos-hero-section .videos-card-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 4px 2px;
+  border-top: 1px solid var(--border-light);
+  direction: rtl;
+}
+
+.videos-hero-section .videos-yt-icon {
+  font-size: 20px;
+  color: #ff0000;
+  flex-shrink: 0;
+}
+
+.videos-hero-section .videos-card-footer span {
+  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #4E5662;
+  flex: 1;
+  text-align: right;
+}
+
+.videos-hero-section .videos-yt-link {
+  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary);
+  text-decoration: none;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: color 0.2s ease;
+  flex-shrink: 0;
+}
+
+.videos-hero-section .videos-yt-link:hover {
+  color: var(--accent);
+}
+
+/* Bottom divider */
+.videos-hero-section .videos-hero-divider-bottom {
+  max-width: 1200px;
+  margin: 48px auto 0;
+  padding: 0 24px;
+}
+
+.videos-hero-section .videos-section-rule {
+  border: none;
+  border-top: 1px solid var(--border-light);
+  width: 120px;
+  margin: 0 auto;
+  opacity: 0.6;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 960px) {
+  .videos-hero-section .videos-hero-container {
     grid-template-columns: 1fr;
-    gap: 36px;
+    gap: 40px;
   }
-
-  .youtube-hero-section .yhs-headline {
-    font-size: 38px;
+  .videos-hero-section .videos-hero-h1 {
+    font-size: 44px;
   }
+  .videos-hero-section .videos-glass-card {
+    max-width: 100%;
+  }
+}
 
-  .youtube-hero-section .yhs-subtitle {
+@media (max-width: 768px) {
+  .videos-hero-section {
+    padding: 100px 16px 48px;
+  }
+  .videos-hero-section .videos-hero-container {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding: 0;
+  }
+  .videos-hero-section .videos-hero-h1 {
+    font-size: 36px;
+  }
+  .videos-hero-section .videos-hero-subtitle {
     font-size: 16px;
     max-width: 100%;
   }
-
-  .youtube-hero-section .yhs-glass-card {
-    max-width: 100%;
+  .videos-hero-section .videos-hero-ctas {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
   }
-
-  .youtube-hero-section .yhs-trust-bar {
-    gap: 0;
+  .videos-hero-section .videos-btn-primary,
+  .videos-hero-section .videos-btn-secondary {
+    width: 100%;
+    text-align: center;
   }
-
-  .youtube-hero-section .yhs-trust-item {
-    padding: 0 10px;
+  .videos-hero-section .videos-hero-trust {
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .videos-hero-section .videos-trust-item {
     font-size: 12px;
+    padding-inline-end: 10px;
+  }
+  .videos-hero-section .videos-glass-card {
+    padding: 14px;
+    border-radius: 14px;
+  }
+  .videos-hero-section .videos-thumb-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .videos-hero-section .videos-thumb-img-wrap {
+    height: 72px;
+  }
+  .videos-hero-section .videos-play-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 14px;
+  }
+  .videos-hero-section .videos-hero-divider-bottom {
+    margin-top: 32px;
+    padding: 0;
   }
 }
 
-.youtube-gallery-section {
+.videos-gallery-section {
   background-color: #FAF9F6;
   background-image: linear-gradient(180deg, #FFFDF8 0%, #F5EEDF 100%);
   color: var(--text-dark);
+  padding: 88px 24px;
   position: relative;
   overflow: visible;
-  padding: 80px 24px 100px;
   direction: rtl;
-  font-family: 'Assistant', 'Heebo', sans-serif;
 }
 
-/* Top decorative rule */
-.youtube-gallery-section .yg-top-rule {
-  position: absolute;
-  top: 0;
-  inset-inline-start: 0;
-  width: 100%;
-  height: 1px;
-  background-color: currentColor;
-  opacity: 0.12;
-  pointer-events: none;
-  z-index: 0;
-}
-
-/* Container */
-.youtube-gallery-section .yg-container {
+.videos-gallery-section .videos-gallery-container {
   max-width: 1200px;
   margin: 0 auto;
-  position: relative;
-  z-index: 1;
+  width: 100%;
 }
 
-/* Section Header */
-.youtube-gallery-section .yg-header {
+/* ── Header ── */
+.videos-gallery-section .videos-gallery-header {
   text-align: center;
-  margin-bottom: 52px;
-  max-width: 680px;
-  margin-inline-start: auto;
-  margin-inline-end: auto;
+  margin-bottom: 56px;
 }
 
-.youtube-gallery-section .yg-title {
+.videos-gallery-section .videos-gallery-title {
   font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.3;
   color: var(--text-dark);
-  margin: 0 0 16px 0;
-  text-align: center;
+  margin: 0 0 14px 0;
+  letter-spacing: 0.01em;
 }
 
-.youtube-gallery-section .yg-subtitle {
+.videos-gallery-section .videos-gallery-subtitle {
+  font-family: 'Assistant', 'Heebo', sans-serif;
   font-size: 1rem;
   line-height: 1.7;
   color: var(--text-muted);
-  margin: 0;
+  max-width: 560px;
+  margin: 0 auto 20px auto;
   text-align: center;
 }
 
-/* Grid */
-.youtube-gallery-section .yg-grid {
+.videos-gallery-section .videos-gallery-rule {
+  width: 56px;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+  margin: 0 auto;
+}
+
+/* ── Grid ── */
+.videos-gallery-section .videos-gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
+  gap: 24px;
   direction: rtl;
 }
 
-/* Card */
-.youtube-gallery-section .yg-card {
-  background: #FFFDF8;
-  border: 1px solid var(--border-light);
-  border-radius: 4px;
-  box-shadow: 0 2px 8px rgba(61,50,33,0.10);
+/* ── Card ── */
+.videos-gallery-section .video-card {
+  background: var(--secondary);
+  border: 1px solid rgba(31, 58, 95, 0.12);
+  border-radius: 18px;
   overflow: hidden;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  transition: box-shadow 0.25s ease, transform 0.25s ease;
-  position: relative;
+  box-shadow: 0 2px 8px rgba(61, 50, 33, 0.10);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  min-width: 0;
 }
 
-.youtube-gallery-section .yg-card:hover {
-  box-shadow: 0 8px 18px rgba(61,50,33,0.16);
+.videos-gallery-section .video-card:hover {
   transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(61, 50, 33, 0.16);
 }
 
-/* Featured card — accent top bar */
-.youtube-gallery-section .yg-card--featured {
-  border-top: 3px solid var(--accent);
-}
-
-/* Thumbnail */
-.youtube-gallery-section .yg-card-thumb {
+/* ── Thumbnail ── */
+.videos-gallery-section .video-card-thumb {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  padding-top: 56.25%; /* 16:9 */
   overflow: hidden;
-  background: var(--secondary);
+  background: var(--bg-dark);
+  flex-shrink: 0;
 }
 
-.youtube-gallery-section .yg-card-thumb img {
-  display: block;
+.videos-gallery-section .video-card-thumb img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
   border-radius: 0;
   border: none;
   box-shadow: none;
   transition: transform 0.35s ease;
 }
 
-.youtube-gallery-section .yg-card:hover .yg-card-thumb img {
+.videos-gallery-section .video-card:hover .video-card-thumb img {
   transform: scale(1.04);
 }
 
-/* Fallback thumb for cards without real images */
-.youtube-gallery-section .yg-card-thumb--placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, var(--secondary) 0%, #dce4ed 100%);
-}
-
-.youtube-gallery-section .yg-thumb-fallback {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.videos-gallery-section .video-thumb-color-bg {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
 }
 
-.youtube-gallery-section .yg-thumb-fallback svg {
-  width: 64px;
-  height: 64px;
-  opacity: 0.6;
-}
-
-/* Play button overlay */
-.youtube-gallery-section .yg-play-btn {
+/* ── Badge ── */
+.videos-gallery-section .video-card-badge {
   position: absolute;
-  inset-inline-start: 50%;
+  top: 12px;
+  inset-inline-start: 12px;
+  background: var(--accent);
+  color: #fff;
+  font-family: 'Assistant', 'Heebo', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 5px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.02em;
+  z-index: 3;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+  white-space: nowrap;
+}
+
+/* ── Play Icon ── */
+.videos-gallery-section .video-card-play {
+  position: absolute;
   top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  z-index: 4;
   pointer-events: none;
-  z-index: 2;
-  filter: drop-shadow(0 2px 6px rgba(31,58,95,0.25));
-  transition: transform 0.25s ease;
+  opacity: 0.88;
+  transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
-.youtube-gallery-section .yg-card:hover .yg-play-btn {
-  transform: translate(-50%, -50%) scale(1.12);
+.videos-gallery-section .video-card:hover .video-card-play {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.1);
 }
 
-/* Card Body */
-.youtube-gallery-section .yg-card-body {
-  padding: 20px 20px 18px;
+.videos-gallery-section .video-card-play svg {
+  display: block;
+  filter: drop-shadow(0 2px 8px rgba(31,58,95,0.28));
+}
+
+/* ── Card Body ── */
+.videos-gallery-section .video-card-body {
+  padding: 20px;
+  flex: 1;
   display: flex;
   flex-direction: column;
-  flex: 1;
   gap: 8px;
+  text-align: right;
 }
 
-.youtube-gallery-section .yg-card-title {
+.videos-gallery-section .video-card-title {
   font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
   font-size: 1.375rem;
   font-weight: 600;
   line-height: 1.4;
   color: var(--text-dark);
   margin: 0;
-  text-align: right;
 }
 
-.youtube-gallery-section .yg-card-desc {
+.videos-gallery-section .video-card-desc {
+  font-family: 'Assistant', 'Heebo', sans-serif;
   font-size: 1rem;
   line-height: 1.7;
   color: var(--text-muted);
   margin: 0;
-  text-align: right;
-  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-/* Watch link */
-.youtube-gallery-section .yg-watch-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  flex-direction: row;
-  color: var(--primary);
-  font-size: 0.875rem;
-  font-weight: 600;
-  text-decoration: none;
-  margin-top: 6px;
-  text-align: right;
-  transition: color 0.2s ease, gap 0.2s ease;
-  align-self: flex-start;
-}
-
-.youtube-gallery-section .yg-watch-link:hover {
-  color: var(--accent);
-  gap: 10px;
-}
-
-.youtube-gallery-section .yg-watch-link svg {
-  flex-shrink: 0;
-  color: currentColor;
-}
-
-/* Bottom CTA */
-.youtube-gallery-section .yg-footer-cta {
+/* ── Footer CTA ── */
+.videos-gallery-section .videos-gallery-footer {
+  margin-top: 48px;
   text-align: center;
-  margin-top: 56px;
-  padding-top: 40px;
-  border-top: 1px solid var(--border-light);
 }
 
-.youtube-gallery-section .yg-cta-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  flex-direction: row;
-  background: var(--primary);
-  color: var(--text-light);
-  text-decoration: none;
+.videos-gallery-section .videos-gallery-footer-text {
   font-family: 'Assistant', 'Heebo', sans-serif;
   font-size: 1rem;
-  font-weight: 700;
-  padding: 14px 32px;
-  border-radius: 3px;
-  border: 2px solid var(--primary);
-  transition: background 0.25s ease, color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
-  box-shadow: 0 2px 8px rgba(31,58,95,0.18);
+  line-height: 1.7;
+  color: var(--text-muted);
 }
 
-.youtube-gallery-section .yg-cta-btn:hover {
-  background: transparent;
+.videos-gallery-section .videos-gallery-footer-link {
   color: var(--primary);
-  box-shadow: 0 8px 18px rgba(31,58,95,0.22);
-  transform: translateY(-2px);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
 }
 
-/* ─── TABLET ─── */
-@media (max-width: 1024px) and (min-width: 601px) {
-  .youtube-gallery-section .yg-grid {
+.videos-gallery-section .videos-gallery-footer-link:hover {
+  color: var(--accent);
+}
+
+/* ── Responsive: Tablet ── */
+@media (max-width: 1024px) {
+  .videos-gallery-section .videos-gallery-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 22px;
+    gap: 20px;
   }
 }
 
-/* ─── MOBILE ─── */
-@media (max-width: 600px) {
-  .youtube-gallery-section {
-    padding: 60px 16px 72px;
+/* ── Responsive: Mobile ── */
+@media (max-width: 768px) {
+  .videos-gallery-section {
+    padding: 56px 16px 48px;
   }
 
-  .youtube-gallery-section .yg-header {
+  .videos-gallery-section .videos-gallery-header {
     margin-bottom: 36px;
   }
 
-  .youtube-gallery-section .yg-title {
+  .videos-gallery-section .videos-gallery-title {
     font-size: 1.6rem;
   }
 
-  .youtube-gallery-section .yg-grid {
+  .videos-gallery-section .videos-gallery-subtitle {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .videos-gallery-section .videos-gallery-grid {
     grid-template-columns: 1fr !important;
-    gap: 18px;
+    gap: 16px;
   }
 
-  .youtube-gallery-section .yg-card-body {
-    padding: 16px 16px 14px;
+  .videos-gallery-section .video-card-badge {
+    font-size: 0.7rem;
+    padding: 4px 8px;
   }
 
-  .youtube-gallery-section .yg-footer-cta {
-    margin-top: 40px;
-    padding-top: 28px;
+  .videos-gallery-section .video-card-body {
+    padding: 16px;
   }
 
-  .youtube-gallery-section .yg-cta-btn {
-    width: 100%;
-    justify-content: center;
-    padding: 14px 20px;
+  .videos-gallery-section .video-card-title {
+    font-size: 1.15rem;
   }
 
-  .youtube-gallery-section .yg-play-btn {
-    width: 40px;
-    height: 40px;
+  .videos-gallery-section .videos-gallery-footer {
+    margin-top: 32px;
   }
 }
 
-.youtube-features-section {
-  background-color: #FAF9F6;
+.videos-features-section {
+  background-color: #E8ECF1;
   background-image: linear-gradient(180deg, #FFFDF8 0%, #F5EEDF 100%);
   color: var(--text-dark);
-  padding: 90px 24px 80px;
+  padding: 84px 24px 104px;
   position: relative;
   overflow: visible;
   direction: rtl;
 }
 
-.youtube-features-section .youtube-features-container {
-  max-width: 1200px;
+.videos-features-section .videos-features-container {
+  max-width: 1160px;
   margin: 0 auto;
   padding: 0;
 }
 
-/* ── Header ── */
-.youtube-features-section .youtube-features-header {
+/* ── Section Header ── */
+.videos-features-section .videos-features-header {
   text-align: right;
-  margin-bottom: 36px;
-  max-width: 680px;
+  margin-block-end: 20px;
 }
 
-.youtube-features-section .youtube-features-rule {
-  width: 56px;
-  height: 2px;
-  background: linear-gradient(90deg, var(--accent) 0%, transparent 100%);
-  margin-bottom: 20px;
-  margin-inline-start: 0;
-  border-radius: 2px;
-  opacity: 0.75;
-}
-
-.youtube-features-section .youtube-features-title {
-  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+.videos-features-section .videos-features-title {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
   font-size: 34px;
   font-weight: 700;
   line-height: 1.2;
   color: var(--primary);
-  margin: 0 0 14px 0;
+  margin: 0 0 16px 0;
   letter-spacing: 0;
 }
 
-.youtube-features-section .youtube-features-subtitle {
-  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+.videos-features-section .videos-features-intro {
+  font-family: 'Assistant', 'Heebo', sans-serif;
   font-size: 16px;
   line-height: 1.7;
   color: var(--text-muted);
+  max-width: 640px;
   margin: 0;
+  text-align: right;
 }
 
-/* ── Decorative route line ── */
-.youtube-features-section .youtube-features-route {
-  margin-bottom: 40px;
+/* ── Route Line ── */
+.videos-features-section .videos-features-route {
+  width: 100%;
+  margin-block: 28px 32px;
+  color: var(--primary);
   pointer-events: none;
-  aria-hidden: true;
+  display: block;
 }
 
-.youtube-features-section .youtube-route-svg {
+.videos-features-section .videos-features-route svg {
   display: block;
   width: 100%;
   height: 12px;
 }
 
-/* ── Cards Grid ── */
-.youtube-features-section .youtube-features-grid {
+/* ── Features Grid ── */
+.videos-features-section .videos-features-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
   direction: rtl;
 }
 
-/* ── Individual Card ── */
-.youtube-features-section .youtube-feature-card {
+/* ── Feature Card ── */
+.videos-features-section .videos-feature-card {
   background: #FFFDF8;
   border: 1px solid var(--border-light);
-  border-radius: 4px;
-  padding: 32px 26px 28px;
-  box-shadow: 0 2px 8px rgba(61,50,33,0.10);
+  border-radius: 16px;
+  padding: 28px 24px 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 18px;
-  position: relative;
+  text-align: right;
+  box-shadow: 0 2px 8px rgba(61, 50, 33, 0.10);
   transition: box-shadow 0.22s ease, transform 0.22s ease;
   min-width: 0;
+  position: relative;
 }
 
-.youtube-features-section .youtube-feature-card::before {
-  content: '';
-  position: absolute;
-  inset-inline-start: 0;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  background: linear-gradient(180deg, var(--accent) 0%, transparent 100%);
-  border-radius: 4px 0 0 4px;
-  opacity: 0;
-  transition: opacity 0.22s ease;
-}
-
-.youtube-features-section .youtube-feature-card:hover {
-  box-shadow: 0 8px 24px rgba(61,50,33,0.16);
+.videos-features-section .videos-feature-card:hover {
+  box-shadow: 0 8px 18px rgba(61, 50, 33, 0.16);
   transform: translateY(-3px);
 }
 
-.youtube-features-section .youtube-feature-card:hover::before {
-  opacity: 1;
-}
-
-/* ── Icon Wrapper ── */
-.youtube-features-section .youtube-feature-icon-wrap {
+/* ── Icon Wrap ── */
+.videos-features-section .videos-feature-icon-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
-  background: rgba(217, 164, 65, 0.09);
-  border: 1px solid rgba(217, 164, 65, 0.22);
-  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  background: rgba(217, 164, 65, 0.10);
+  color: var(--accent);
+  margin-block-end: 18px;
   flex-shrink: 0;
 }
 
-.youtube-features-section .youtube-feature-icon-wrap svg {
+.videos-features-section .videos-feature-icon-wrap svg {
   display: block;
 }
 
-/* ── Card Body ── */
-.youtube-features-section .youtube-feature-body {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  text-align: right;
-}
-
-.youtube-features-section .youtube-feature-title {
-  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+/* ── Card Title ── */
+.videos-features-section .videos-feature-title {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 1.3;
   color: var(--primary);
-  margin: 0;
+  margin: 0 0 10px 0;
 }
 
-.youtube-features-section .youtube-feature-desc {
-  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+/* ── Card Description ── */
+.videos-features-section .videos-feature-desc {
+  font-family: 'Assistant', 'Heebo', sans-serif;
   font-size: 16px;
   line-height: 1.7;
   color: var(--text-muted);
   margin: 0;
+  flex: 1;
 }
 
-/* ── RESPONSIVE: Tablet (2 columns) ── */
-@media (max-width: 1024px) {
-  .youtube-features-section .youtube-features-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-
-  .youtube-features-section .youtube-features-title {
-    font-size: 28px;
-  }
-}
-
-/* ── RESPONSIVE: Mobile (1 column) ── */
-@media (max-width: 768px) {
-  .youtube-features-section {
-    padding: 60px 16px 56px;
-  }
-
-  .youtube-features-section .youtube-features-header {
-    margin-bottom: 28px;
-  }
-
-  .youtube-features-section .youtube-features-title {
-    font-size: 24px;
-  }
-
-  .youtube-features-section .youtube-features-grid {
-    grid-template-columns: 1fr !important;
-    gap: 16px;
-  }
-
-  .youtube-features-section .youtube-feature-card {
-    padding: 24px 20px 22px;
-    gap: 14px;
-  }
-
-  .youtube-features-section .youtube-features-route {
-    display: none;
-  }
-}
-
-.youtube-reviews-section {
-  position: relative;
-  overflow: visible;
-  background-color: #1F2A3E;
-  background-image:
-    radial-gradient(ellipse at 10% 20%, rgba(217,164,65,0.07) 0%, transparent 55%),
-    radial-gradient(ellipse at 90% 80%, rgba(217,164,65,0.05) 0%, transparent 50%),
-    linear-gradient(180deg, #2A2F43 0%, #222A40 100%);
-  color: var(--text-light);
-  padding: 80px 20px 100px;
-  direction: rtl;
-}
-
-/* Decorative passport stamp */
-.youtube-reviews-section .yr-passport-stamp {
-  position: absolute;
-  top: 40px;
-  inset-inline-end: 40px;
-  width: 160px;
-  height: 160px;
-  pointer-events: none;
-  z-index: 0;
-  opacity: 0.7;
-}
-
-.youtube-reviews-section .yr-passport-stamp svg {
-  width: 100%;
-  height: 100%;
-}
-
-/* Decorative route line */
-.youtube-reviews-section .yr-route-line {
-  position: absolute;
-  top: 28px;
-  inset-inline-start: 50%;
-  transform: translateX(50%);
-  width: 400px;
-  max-width: 50%;
-  pointer-events: none;
-  z-index: 0;
-  opacity: 0.6;
-}
-
-.youtube-reviews-section .yr-route-line svg {
-  width: 100%;
+/* ── Bottom Spacer ── */
+.videos-features-section .videos-features-container::after {
+  content: '';
+  display: block;
   height: 20px;
 }
 
-/* Container */
-.youtube-reviews-section .yr-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 1;
-}
-
-/* Header */
-.youtube-reviews-section .yr-header {
-  text-align: center;
-  margin-bottom: 56px;
-}
-
-.youtube-reviews-section .yr-header-rule {
-  width: 80px;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(217,164,65,0.5), transparent);
-  margin: 0 auto 20px;
-}
-
-.youtube-reviews-section .yr-eyebrow {
-  display: inline-block;
-  font-family: 'Assistant', 'Heebo', sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: 14px;
-}
-
-.youtube-reviews-section .yr-title {
-  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
-  font-size: 34px;
-  font-weight: 700;
-  line-height: 1.2;
-  color: var(--text-light);
-  margin: 0 0 16px;
-  max-width: none !important;
-}
-
-.youtube-reviews-section .yr-subtitle {
-  font-family: 'Assistant', 'Heebo', sans-serif;
-  font-size: 16px;
-  line-height: 1.7;
-  color: rgba(250,249,246,0.72);
-  max-width: 580px;
-  margin: 0 auto 20px;
-  text-align: center;
-}
-
-.youtube-reviews-section .yr-stars-row {
-  display: flex;
-  justify-content: center;
-  gap: 6px;
-  color: var(--accent);
-  font-size: 16px;
-}
-
-/* Reviews grid */
-.youtube-reviews-section .yr-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 24px;
-  margin-bottom: 56px;
-}
-
-/* Card */
-.youtube-reviews-section .yr-card {
-  position: relative;
-  background: rgba(15, 20, 35, 0.55);
-  border: 1px solid rgba(217,164,65,0.28);
-  border-radius: 4px;
-  overflow: hidden;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.youtube-reviews-section .yr-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 14px 36px rgba(0,0,0,0.35), 0 0 26px rgba(217,164,65,0.10);
-}
-
-.youtube-reviews-section .yr-card-inner {
-  padding: 28px 28px 24px;
-}
-
-.youtube-reviews-section .yr-card-accent-line {
-  position: absolute;
-  top: 0;
-  inset-inline-end: 0;
-  width: 3px;
-  height: 100%;
-  background: linear-gradient(180deg, var(--accent) 0%, rgba(217,164,65,0.2) 100%);
-}
-
-/* Card topic */
-.youtube-reviews-section .yr-card-topic {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 18px;
-  padding-bottom: 14px;
-  border-bottom: 1px solid rgba(217,164,65,0.18);
-}
-
-.youtube-reviews-section .yr-card-topic span {
-  font-family: 'Assistant', 'Heebo', sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  color: var(--accent);
-}
-
-.youtube-reviews-section .yr-topic-icon {
-  font-size: 14px;
-  color: var(--accent);
-  flex-shrink: 0;
-}
-
-/* Quote */
-.youtube-reviews-section .yr-quote {
-  margin: 0 0 22px;
-  padding: 0;
-  border: none;
-}
-
-.youtube-reviews-section .yr-quote p {
-  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
-  font-size: 17px;
-  line-height: 1.75;
-  color: rgba(250,249,246,0.88);
-  margin: 0;
-  font-style: italic;
-  text-align: right;
-}
-
-/* Card footer */
-.youtube-reviews-section .yr-card-footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 12px;
-}
-
-.youtube-reviews-section .yr-avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, rgba(217,164,65,0.35) 0%, rgba(217,164,65,0.15) 100%);
-  border: 1px solid rgba(217,164,65,0.4);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 17px;
-  font-weight: 700;
-  color: var(--accent);
-  flex-shrink: 0;
-}
-
-.youtube-reviews-section .yr-author-info {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.youtube-reviews-section .yr-author-name {
-  font-family: 'Assistant', 'Heebo', sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--text-light);
-}
-
-.youtube-reviews-section .yr-author-sub {
-  font-family: 'Assistant', 'Heebo', sans-serif;
-  font-size: 12px;
-  color: rgba(250,249,246,0.50);
-}
-
-/* CTA Strip */
-.youtube-reviews-section .yr-cta-strip {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  text-align: center;
-  padding: 36px 24px;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(217,164,65,0.18);
-  border-radius: 4px;
-}
-
-.youtube-reviews-section .yr-cta-text {
-  font-family: 'Assistant', 'Heebo', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: rgba(250,249,246,0.82);
-  margin: 0;
-  text-align: center;
-}
-
-.youtube-reviews-section .yr-cta-btn {
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-  border-radius: 2px;
-  padding: 12px 30px;
-  background: linear-gradient(180deg, #E2AB32 0%, #C98C18 100%);
-  color: #FFFDF8;
-  border: 1px solid #B97D11;
-  font-family: 'Assistant', 'Heebo', sans-serif;
-  font-size: 15px;
-  font-weight: 700;
-  text-decoration: none;
-  box-shadow: 0 4px 14px rgba(157,112,20,0.30);
-  transition: box-shadow 0.22s ease, transform 0.22s ease;
-  letter-spacing: 0.5px;
-}
-
-.youtube-reviews-section .yr-cta-btn:hover {
-  box-shadow: 0 8px 22px rgba(157,112,20,0.42);
-  transform: translateY(-2px);
-}
-
-.youtube-reviews-section .yr-cta-btn .fab {
-  font-size: 17px;
-}
-
-/* Bottom divider */
-.youtube-reviews-section .yr-divider-wrapper {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 70px;
-  pointer-events: none;
-  z-index: 5;
-}
-
-.youtube-reviews-section .yr-divider-wrapper svg {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-/* Desktop grid */
-@media (min-width: 768px) {
-  .youtube-reviews-section {
-    padding: 100px 40px 120px;
-  }
-
-  .youtube-reviews-section .yr-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 28px;
-  }
-
-  .youtube-reviews-section .yr-title {
-    font-size: 38px;
-  }
-
-  .youtube-reviews-section .yr-cta-strip {
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: right;
-    padding: 32px 40px;
-  }
-
-  .youtube-reviews-section .yr-cta-text {
-    text-align: right;
-  }
-
-  .youtube-reviews-section .yr-route-line {
-    inset-inline-start: 20%;
-    transform: none;
+/* ── Tablet: 2×2 ── */
+@media (max-width: 1024px) {
+  .videos-features-section .videos-features-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 }
 
-/* Mobile adjustments */
-@media (max-width: 767px) {
-  .youtube-reviews-section {
-    padding: 60px 16px 90px;
+/* ── Mobile ── */
+@media (max-width: 768px) {
+  .videos-features-section {
+    padding: 56px 16px 72px;
   }
 
-  .youtube-reviews-section .yr-passport-stamp {
-    width: 90px;
-    height: 90px;
-    top: 16px;
-    inset-inline-end: 16px;
+  .videos-features-section .videos-features-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px;
   }
 
-  .youtube-reviews-section .yr-route-line {
-    display: none;
-  }
-
-  .youtube-reviews-section .yr-title {
+  .videos-features-section .videos-features-title {
     font-size: 26px;
   }
 
-  .youtube-reviews-section .yr-grid {
-    grid-template-columns: 1fr !important;
+  .videos-features-section .videos-features-intro {
+    max-width: 100%;
+    font-size: 15px;
   }
 
-  .youtube-reviews-section .yr-card-inner {
-    padding: 20px 18px 18px;
+  .videos-features-section .videos-feature-card {
+    padding: 20px 18px;
+    border-radius: 12px;
   }
 
-  .youtube-reviews-section .yr-cta-strip {
-    flex-direction: column;
-    gap: 16px;
-    padding: 24px 16px;
+  .videos-features-section .videos-features-route {
+    margin-block: 20px 24px;
   }
 }
 
-.youtube-faq-section {
-  direction: rtl;
-  background-color: #FAF9F6;
-  background-image: linear-gradient(180deg, #FFFDF8 0%, #F5EEDF 100%);
-  color: var(--text-dark);
-  padding: 80px 24px 72px;
+.videos-reviews-section {
   position: relative;
+  background-color: #222A40;
+  background-image: linear-gradient(180deg, #2A2F43 0%, #222A40 100%);
+  color: var(--text-light);
+  padding: 92px 24px 100px;
+  direction: rtl;
   overflow: visible;
-  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
 }
 
-.youtube-faq-section .youtube-faq-inner {
-  max-width: 760px;
+.videos-reviews-section .videos-reviews-container {
+  max-width: 1200px;
   margin: 0 auto;
   width: 100%;
 }
 
-/* ── Header ── */
-.youtube-faq-section .youtube-faq-header {
+.videos-reviews-section .videos-reviews-header {
   text-align: center;
-  margin-bottom: 52px;
+  margin-bottom: 56px;
 }
 
-.youtube-faq-section .youtube-faq-rule {
-  width: 56px;
-  height: 2px;
-  background: var(--accent);
-  margin: 0 auto 24px;
-  border-radius: 2px;
-  opacity: 0.85;
-}
-
-.youtube-faq-section .youtube-faq-title {
-  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
-  font-size: 34px;
+.videos-reviews-section .videos-reviews-title {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  font-size: 2rem;
   font-weight: 700;
-  line-height: 1.2;
-  color: var(--primary);
-  margin: 0 0 16px;
-  letter-spacing: 0;
+  line-height: 1.3;
+  color: var(--text-light);
+  margin: 0 0 16px 0;
+  letter-spacing: 0.01em;
+  max-width: none !important;
 }
 
-.youtube-faq-section .youtube-faq-subtitle {
+.videos-reviews-section .videos-reviews-intro {
+  font-family: 'Assistant', 'Heebo', sans-serif;
   font-size: 16px;
   line-height: 1.7;
-  color: var(--text-muted);
-  margin: 0 auto;
+  color: rgba(250, 249, 246, 0.78);
+  margin: 0 auto 28px auto;
   max-width: 560px;
   text-align: center;
 }
 
-/* ── FAQ List ── */
-.youtube-faq-section .youtube-faq-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
-/* ── FAQ Item ── */
-.youtube-faq-section .youtube-faq-item {
-  background: #FFFDF8;
-  border: 1px solid var(--border-light);
-  border-radius: 3px;
-  padding: 28px 32px 26px;
-  margin-bottom: 12px;
-  box-shadow: 0 2px 8px rgba(61, 50, 33, 0.07);
-  transition: box-shadow 0.22s ease, border-color 0.22s ease;
-  text-align: right;
-}
-
-.youtube-faq-section .youtube-faq-item:last-child {
-  margin-bottom: 0;
-}
-
-.youtube-faq-section .youtube-faq-item:hover {
-  box-shadow: 0 6px 18px rgba(61, 50, 33, 0.13);
-  border-color: var(--accent);
-}
-
-/* ── Question ── */
-.youtube-faq-section .youtube-faq-question {
-  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1.35;
-  color: var(--primary);
-  margin: 0 0 14px;
-  text-align: right;
-}
-
-/* ── Thin divider between Q and A ── */
-.youtube-faq-section .youtube-faq-divider {
-  width: 100%;
-  height: 1px;
-  background: var(--border-light);
-  opacity: 0.7;
-  margin-bottom: 16px;
-  border-radius: 1px;
-}
-
-/* ── Answer ── */
-.youtube-faq-section .youtube-faq-answer {
-  font-size: 16px;
-  line-height: 1.75;
-  color: var(--text-muted);
-  margin: 0;
-  text-align: right;
-}
-
-/* ── Bottom CTA Block ── */
-.youtube-faq-section .youtube-faq-cta-block {
-  margin-top: 52px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-}
-
-.youtube-faq-section .youtube-faq-cta-rule {
-  width: 100%;
-  height: 1px;
-  background: var(--border-light);
-  opacity: 0.6;
-  margin-bottom: 4px;
-}
-
-.youtube-faq-section .youtube-faq-cta-text {
-  font-size: 16px;
-  line-height: 1.6;
-  color: var(--text-dark);
-  margin: 0;
-  text-align: center;
-  font-weight: 500;
-}
-
-/* ── CTA Button ── */
-.youtube-faq-section .youtube-faq-cta-btn {
-  display: inline-block;
+.videos-reviews-section .videos-reviews-divider {
+  width: 64px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  margin: 0 auto;
+  opacity: 0.85;
   border-radius: 2px;
-  padding: 11px 30px;
-  background: linear-gradient(180deg, #E2AB32 0%, #C98C18 100%);
-  color: #FFFDF8;
-  border: 1px solid #B97D11;
+}
+
+.videos-reviews-section .videos-reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  direction: rtl;
+}
+
+.videos-reviews-section .videos-review-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(217, 164, 65, 0.22);
+  border-radius: 18px;
+  padding: 28px 28px 24px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  overflow: hidden;
+}
+
+.videos-reviews-section .videos-review-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.32), 0 0 0 1px rgba(217, 164, 65, 0.35);
+}
+
+.videos-reviews-section .videos-review-quote-mark {
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  font-size: 88px;
+  line-height: 1;
+  color: var(--accent);
+  opacity: 0.13;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+
+.videos-reviews-section .videos-review-text {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  border: none;
+  flex: 1;
+}
+
+.videos-reviews-section .videos-review-text p {
+  font-family: 'Assistant', 'Heebo', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: rgba(250, 249, 246, 0.88);
+  margin: 0;
+  text-align: right;
+}
+
+.videos-reviews-section .videos-review-footer {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(217, 164, 65, 0.15);
+}
+
+.videos-reviews-section .videos-review-stars {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  justify-content: flex-end;
+}
+
+.videos-reviews-section .videos-review-stars .fa-star {
+  color: var(--accent);
   font-size: 14px;
-  font-weight: 700;
-  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
-  text-decoration: none;
-  letter-spacing: 0.02em;
-  transition: box-shadow 0.2s ease, opacity 0.2s ease;
-  box-shadow: 0 3px 8px rgba(157, 112, 20, 0.22);
 }
 
-.youtube-faq-section .youtube-faq-cta-btn:hover {
-  box-shadow: 0 6px 16px rgba(201, 140, 24, 0.34);
-  opacity: 0.93;
+.videos-reviews-section .videos-review-author {
+  font-family: 'Assistant', 'Heebo', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(250, 249, 246, 0.6);
+  margin: 0;
+  text-align: right;
+  font-weight: 600;
+  letter-spacing: 0.01em;
 }
 
-/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .videos-reviews-section .videos-reviews-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media (max-width: 768px) {
-  .youtube-faq-section {
-    padding: 56px 16px 52px;
+  .videos-reviews-section {
+    padding: 60px 16px 72px;
   }
 
-  .youtube-faq-section .youtube-faq-title {
-    font-size: 26px;
-  }
-
-  .youtube-faq-section .youtube-faq-subtitle {
-    font-size: 15px;
-    max-width: 100%;
-  }
-
-  .youtube-faq-section .youtube-faq-header {
+  .videos-reviews-section .videos-reviews-header {
     margin-bottom: 36px;
   }
 
-  .youtube-faq-section .youtube-faq-item {
-    padding: 20px 18px 18px;
+  .videos-reviews-section .videos-reviews-title {
+    font-size: 1.6rem;
   }
 
-  .youtube-faq-section .youtube-faq-question {
-    font-size: 18px;
+  .videos-reviews-section .videos-reviews-intro {
+    font-size: 16px;
+    max-width: 100%;
   }
 
-  .youtube-faq-section .youtube-faq-cta-block {
-    margin-top: 36px;
+  .videos-reviews-section .videos-reviews-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+
+  .videos-reviews-section .videos-review-card {
+    padding: 24px 20px 20px 20px;
+  }
+
+  .videos-reviews-section .videos-review-quote-mark {
+    font-size: 64px;
+    top: 10px;
+    right: 14px;
   }
 }
 
-.youtube-cta-section {
+.videos-faq-section {
+  background: linear-gradient(180deg, #FFFDF8 0%, #F5EEDF 100%);
+  background-color: #FFFDF8;
+  color: var(--text-dark);
+  padding: 88px 24px;
+  position: relative;
+  direction: rtl;
+  font-family: 'Assistant', 'Heebo', sans-serif;
+}
+
+.videos-faq-section .videos-faq-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Top decorative rule */
+.videos-faq-section .videos-faq-top-rule {
+  width: 100%;
+  height: 1px;
+  background-color: var(--border-light);
+  opacity: 0.7;
+  margin-bottom: 56px;
+}
+
+/* Two-column layout: right 4 / left 6 */
+.videos-faq-section .videos-faq-layout {
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  gap: 56px;
+  align-items: start;
+  direction: rtl;
+}
+
+/* ── RIGHT COLUMN: Intro ── */
+.videos-faq-section .videos-faq-intro {
+  position: relative;
+  padding-inline-start: 20px;
+}
+
+.videos-faq-section .videos-faq-accent-bar {
+  position: absolute;
+  inset-inline-start: 0;
+  top: 4px;
+  width: 3px;
+  height: 48px;
+  background: linear-gradient(180deg, #E2AB32 0%, #C98C18 100%);
+  border-radius: 2px;
+}
+
+.videos-faq-section .videos-faq-heading {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--primary);
+  margin: 0 0 20px 0;
+  letter-spacing: 0;
+}
+
+.videos-faq-section .videos-faq-lead {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-dark);
+  margin: 0 0 28px 0;
+}
+
+.videos-faq-section .videos-faq-contact-nudge {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  background: #FFFDF8;
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  padding: 14px 16px;
+  box-shadow: 0 2px 8px rgba(61,50,33,0.10);
+}
+
+.videos-faq-section .videos-faq-contact-icon {
+  flex-shrink: 0;
+  color: var(--accent);
+  margin-top: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.videos-faq-section .videos-faq-contact-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.videos-faq-section .videos-faq-contact-link {
+  color: var(--primary);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
+}
+
+.videos-faq-section .videos-faq-contact-link:hover {
+  color: var(--accent);
+}
+
+/* ── LEFT COLUMN: FAQ List ── */
+.videos-faq-section .videos-faq-list-col {
+  position: relative;
+  padding-inline-end: 0;
+}
+
+/* Thin vertical accent stripe on the right side of the list column */
+.videos-faq-section .videos-faq-accent-stripe {
+  position: absolute;
+  inset-inline-end: -18px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, rgba(226,171,50,0.35) 0%, rgba(226,171,50,0.05) 100%);
+  border-radius: 2px;
+  pointer-events: none;
+  aria-hidden: true;
+}
+
+.videos-faq-section .videos-faq-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.videos-faq-section .videos-faq-item {
+  background: #FFFDF8;
+  padding: 20px 20px 18px 20px;
+  border-bottom: 1px solid var(--border-light);
+  position: relative;
+}
+
+.videos-faq-section .videos-faq-item:last-child {
+  border-bottom: none;
+}
+
+/* Last item gets full border + radius for editorial finish */
+.videos-faq-section .videos-faq-item--last {
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(61,50,33,0.08);
+}
+
+.videos-faq-section .videos-faq-question {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--primary);
+  margin: 0 0 10px 0;
+  text-align: right;
+}
+
+.videos-faq-section .videos-faq-answer {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-dark);
+  margin: 0;
+  text-align: right;
+}
+
+/* Subtle left-side accent on each FAQ item */
+.videos-faq-section .videos-faq-item::before {
+  content: '';
+  position: absolute;
+  inset-inline-start: 0;
+  top: 20px;
+  bottom: 20px;
+  width: 3px;
+  background: linear-gradient(180deg, rgba(226,171,50,0.6) 0%, rgba(226,171,50,0.15) 100%);
+  border-radius: 2px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .videos-faq-section .videos-faq-layout {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .videos-faq-section .videos-faq-accent-stripe {
+    display: none;
+  }
+
+  .videos-faq-section .videos-faq-intro {
+    padding-inline-start: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .videos-faq-section {
+    padding: 56px 16px;
+  }
+
+  .videos-faq-section .videos-faq-top-rule {
+    margin-bottom: 36px;
+  }
+
+  .videos-faq-section .videos-faq-layout {
+    grid-template-columns: 1fr !important;
+    gap: 28px;
+  }
+
+  .videos-faq-section .videos-faq-heading {
+    font-size: 28px;
+  }
+
+  .videos-faq-section .videos-faq-question {
+    font-size: 18px;
+  }
+
+  .videos-faq-section .videos-faq-item {
+    padding: 16px 16px 14px 16px;
+  }
+
+  .videos-faq-section .videos-faq-list {
+    gap: 10px;
+  }
+
+  .videos-faq-section .videos-faq-accent-bar {
+    height: 36px;
+  }
+}
+
+.videos-cta-section {
   background-color: #FAF9F6;
   background-image: linear-gradient(180deg, #FFFDF8 0%, #F5EEDF 100%);
   color: var(--text-dark);
-  padding: 80px 24px 96px;
+  padding: 96px 24px;
   direction: rtl;
   position: relative;
   overflow: visible;
 }
 
-.youtube-cta-section .youtube-cta-container {
-  max-width: 720px;
+.videos-cta-section .videos-cta-outer {
+  max-width: 980px;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.youtube-cta-section .youtube-cta-card {
-  background: #FFFFFF;
+.videos-cta-section .videos-cta-card {
+  background: #FFFDF8;
   border: 1px solid var(--border-light);
-  border-radius: 4px;
-  box-shadow: 0 8px 18px rgba(61,50,33,0.16);
-  overflow: hidden;
-  width: 100%;
+  border-radius: 24px;
+  box-shadow: 0 2px 8px rgba(61, 50, 33, 0.10);
+  padding: 52px 48px 52px 52px;
   position: relative;
+  overflow: hidden;
 }
 
-.youtube-cta-section .youtube-cta-card-top-bar {
-  height: 4px;
-  background: linear-gradient(90deg, #C98C18 0%, #E2AB32 50%, #C98C18 100%);
-  width: 100%;
-  display: block;
+/* Decorative accent line top-right */
+.videos-cta-section .videos-cta-accent-line {
+  position: absolute;
+  top: 36px;
+  inset-inline-end: 48px;
+  width: 56px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent) 0%, transparent 100%);
+  border-radius: 2px;
+  pointer-events: none;
 }
 
-.youtube-cta-section .youtube-cta-card-inner {
-  padding: 52px 56px 48px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+/* Passport stamp bottom-left */
+.videos-cta-section .videos-cta-stamp {
+  position: absolute;
+  bottom: -16px;
+  inset-inline-start: 36px;
+  pointer-events: none;
+  z-index: 0;
+  user-select: none;
+}
+
+/* Inner 2-column layout: 7:3 ratio */
+.videos-cta-section .videos-cta-inner {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  gap: 40px;
   align-items: center;
-  gap: 0;
+  position: relative;
+  z-index: 1;
+  direction: rtl;
 }
 
-.youtube-cta-section .youtube-cta-ornament {
-  color: var(--accent);
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Text column */
+.videos-cta-section .videos-cta-text {
+  text-align: right;
 }
 
-.youtube-cta-section .youtube-cta-heading {
-  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+.videos-cta-section .videos-cta-heading {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.3;
   color: var(--text-dark);
-  margin: 0 0 20px;
-  text-align: center;
+  margin: 0 0 16px 0;
   letter-spacing: 0.01em;
 }
 
-.youtube-cta-section .youtube-cta-sub {
-  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
-  font-size: 1rem;
+.videos-cta-section .videos-cta-desc {
+  font-family: 'Assistant', 'Heebo', sans-serif;
+  font-size: 16px;
   line-height: 1.7;
   color: var(--text-dark);
-  text-align: center;
-  margin: 0 0 36px;
+  margin: 0 0 24px 0;
   max-width: 520px;
 }
 
-.youtube-cta-section .youtube-cta-buttons {
+.videos-cta-section .videos-cta-highlights {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.videos-cta-section .videos-cta-highlights li {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
-  gap: 16px;
-  flex-wrap: wrap;
-  margin-bottom: 28px;
+  gap: 10px;
+  font-family: 'Assistant', 'Heebo', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-dark);
+  text-align: right;
 }
 
-.youtube-cta-section .youtube-cta-btn-primary {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
+.videos-cta-section .videos-cta-highlights li svg {
+  flex-shrink: 0;
+  color: var(--accent);
+  width: 16px;
+  height: 16px;
+}
+
+.videos-cta-section .videos-cta-highlights li span {
+  color: var(--text-dark);
+}
+
+/* Buttons column */
+.videos-cta-section .videos-cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: stretch;
+}
+
+.videos-cta-section .videos-cta-btn-primary {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
   background: linear-gradient(180deg, #E2AB32 0%, #C98C18 100%);
   color: #FFFDF8;
-  padding: 14px 34px;
+  padding: 14px 28px;
   border-radius: 2px;
   border: 1px solid #B97D11;
+  font-family: 'Assistant', 'Heebo', sans-serif;
   font-weight: 700;
-  font-size: 1rem;
-  box-shadow: 0 4px 10px rgba(157,112,20,0.28);
-  text-decoration: none;
-  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
-  transition: box-shadow 0.2s ease, transform 0.15s ease;
+  font-size: 16px;
+  box-shadow: 0 4px 10px rgba(157, 112, 20, 0.28);
+  cursor: pointer;
+  transition: opacity 0.2s ease, box-shadow 0.2s ease;
   white-space: nowrap;
 }
 
-.youtube-cta-section .youtube-cta-btn-primary:hover {
-  box-shadow: 0 6px 16px rgba(157,112,20,0.40);
-  transform: translateY(-2px);
-  color: #FFFDF8;
-  text-decoration: none;
+.videos-cta-section .videos-cta-btn-primary:hover {
+  opacity: 0.92;
+  box-shadow: 0 6px 16px rgba(157, 112, 20, 0.38);
 }
 
-.youtube-cta-section .youtube-cta-btn-secondary {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
+.videos-cta-section .videos-cta-btn-secondary {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
   background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 100%);
   color: var(--primary);
-  padding: 14px 34px;
+  padding: 13px 28px;
   border-radius: 2px;
   border: 1px solid var(--border-light);
+  font-family: 'Assistant', 'Heebo', sans-serif;
   font-weight: 700;
-  font-size: 1rem;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(61,50,33,0.12);
-  text-decoration: none;
-  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
-  transition: box-shadow 0.2s ease, transform 0.15s ease;
+  font-size: 16px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 2px 6px rgba(61, 50, 33, 0.12);
+  cursor: pointer;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
   white-space: nowrap;
 }
 
-.youtube-cta-section .youtube-cta-btn-secondary:hover {
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.9), 0 4px 12px rgba(61,50,33,0.20);
-  transform: translateY(-2px);
-  color: var(--primary);
-  text-decoration: none;
+.videos-cta-section .videos-cta-btn-secondary:hover {
+  background: linear-gradient(180deg, #F8F8F8 0%, #E8E8E8 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 4px 10px rgba(61, 50, 33, 0.18);
 }
 
-.youtube-cta-section .youtube-cta-btn-secondary i {
-  color: #FF0000;
+/* ─── Responsive: tablet ─── */
+@media (max-width: 900px) {
+  .videos-cta-section .videos-cta-inner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .videos-cta-section .videos-cta-buttons {
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .videos-cta-section .videos-cta-btn-primary,
+  .videos-cta-section .videos-cta-btn-secondary {
+    flex: 1 1 auto;
+    min-width: 160px;
+  }
 }
 
-.youtube-cta-section .youtube-cta-tagline {
-  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.6;
-  color: var(--text-muted);
-  text-align: center;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.youtube-cta-section .youtube-cta-heart-icon {
-  color: var(--accent);
-  font-size: 0.85rem;
-  flex-shrink: 0;
-}
-
+/* ─── Responsive: mobile ─── */
 @media (max-width: 768px) {
-  .youtube-cta-section {
-    padding: 56px 16px 64px;
+  .videos-cta-section {
+    padding: 60px 16px;
   }
 
-  .youtube-cta-section .youtube-cta-card-inner {
-    padding: 36px 24px 32px;
+  .videos-cta-section .videos-cta-card {
+    padding: 36px 20px 44px 20px;
+    border-radius: 16px;
   }
 
-  .youtube-cta-section .youtube-cta-heading {
+  .videos-cta-section .videos-cta-accent-line {
+    inset-inline-end: 20px;
+    top: 20px;
+    width: 40px;
+  }
+
+  .videos-cta-section .videos-cta-heading {
     font-size: 1.6rem;
   }
 
-  .youtube-cta-section .youtube-cta-sub {
-    font-size: 1rem;
-    margin-bottom: 28px;
+  .videos-cta-section .videos-cta-inner {
+    grid-template-columns: 1fr !important;
+    gap: 24px;
   }
 
-  .youtube-cta-section .youtube-cta-buttons {
+  .videos-cta-section .videos-cta-buttons {
     flex-direction: column;
     gap: 12px;
-    width: 100%;
   }
 
-  .youtube-cta-section .youtube-cta-btn-primary,
-  .youtube-cta-section .youtube-cta-btn-secondary {
+  .videos-cta-section .videos-cta-btn-primary,
+  .videos-cta-section .videos-cta-btn-secondary {
     width: 100%;
-    justify-content: center;
-    padding: 14px 20px;
-    font-size: 1rem;
+    text-align: center;
   }
 
-  .youtube-cta-section .youtube-cta-tagline {
-    font-size: 0.875rem;
+  .videos-cta-section .videos-cta-stamp {
+    bottom: -10px;
+    inset-inline-start: 12px;
+    opacity: 0.7;
+  }
+
+  .videos-cta-section .videos-cta-stamp svg {
+    width: 80px;
+    height: 80px;
   }
 }</style>
     <link rel="stylesheet" href="/styles.css">
@@ -3179,610 +3095,478 @@
 
 </script>
   
-  <main class="blog-page ai-generated-page"><section class="youtube-hero-section" data-layout-spec="סרטוני יוטיוב-hero" dir="rtl" data-hero-type="fullscreen-scrim">
-  <!-- Decorative background pattern -->
-  <div class="yhs-bg-pattern" aria-hidden="true"></div>
+  <main class="blog-page ai-generated-page"><section class="videos-hero-section" data-layout-spec="סרטוני יוטיוב-hero" dir="rtl" data-hero-type="fullscreen-scrim">
+  <!-- Decorative top accent line -->
+  <div class="videos-hero-top-rule" aria-hidden="true"></div>
 
-  <div class="yhs-container">
-    <div class="yhs-grid">
+  <!-- Subtle grid background pattern -->
+  <div class="videos-hero-grid-bg" aria-hidden="true"></div>
 
-      <!-- Right Column: Text Content -->
-      <div class="yhs-content">
-        <span class="yhs-eyebrow">ליובאוויטשער רופן</span>
-        <h1 class="yhs-headline">טיולים ובידור<br><em>מכל הלב</em></h1>
-        <h3 class="yhs-subtitle">חוויות בלתי נשכחות למשפחות וקבוצות — מתוכננות בקפידה, מבוצעות בשמחה</h3>
+  <div class="videos-hero-container">
+    <!-- Right column: Text block -->
+    <div class="videos-hero-text-col">
+      <span class="videos-hero-eyebrow">ערוץ היוטיוב שלנו</span>
+      <h1 class="videos-hero-h1">טיולים ובידור<br><span class="videos-hero-h1-accent">מכל הלב</span></h1>
+      <h3 class="videos-hero-subtitle">סרטוני וידאו מרתקים מהטיולים, ההצגות והאטרקציות שלנו — כל מה שצריך לדעת לפני שיוצאים לדרך.</h3>
 
-        <!-- CTA Buttons -->
-        <div class="yhs-cta-row">
-          <a href="#tours" class="yhs-btn-primary">לצפייה בסרטונים</a>
-          <a href="#contact" class="yhs-btn-secondary">צרו קשר</a>
-        </div>
-
-        <!-- Trust Bar -->
-        <div class="yhs-trust-bar">
-          <div class="yhs-trust-item">
-            <i class="fa-solid fa-star" aria-hidden="true"></i>
-            <span>חוויה מוכחת</span>
-          </div>
-          <div class="yhs-trust-divider" aria-hidden="true"></div>
-          <div class="yhs-trust-item">
-            <i class="fa-solid fa-users" aria-hidden="true"></i>
-            <span>אלפי משפחות מרוצות</span>
-          </div>
-          <div class="yhs-trust-divider" aria-hidden="true"></div>
-          <div class="yhs-trust-item">
-            <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
-            <span>בטוח ואמין</span>
-          </div>
-        </div>
+      <div class="videos-hero-ctas">
+        <a href="#videos" class="videos-btn-primary">לצפייה בסרטונים</a>
+        <a href="/contact" class="videos-btn-secondary">צרו קשר</a>
       </div>
 
-      <!-- Left Column: YouTube-style Glass Card -->
-      <div class="yhs-card-col">
-        <!-- Decorative passport stamp behind card -->
-        <div class="yhs-passport-stamp" aria-hidden="true">
-          <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="80" cy="80" r="72" stroke="#1F3A5F" stroke-width="2" stroke-dasharray="6 4" opacity="0.18"></circle>
-            <circle cx="80" cy="80" r="56" stroke="#D9A441" stroke-width="1.5" opacity="0.15"></circle>
-            <circle cx="80" cy="80" r="40" stroke="#1F3A5F" stroke-width="1" opacity="0.12"></circle>
-            <path d="M60 80 Q80 60 100 80 Q80 100 60 80Z" stroke="#D9A441" stroke-width="1.2" fill="none" opacity="0.2"></path>
-          </svg>
-        </div>
+      <!-- Trust bar -->
+      <div class="videos-hero-trust">
+        <span class="videos-trust-item">
+          <i class="fa-solid fa-film" aria-hidden="true"></i>
+          מאות סרטונים
+        </span>
+        <span class="videos-trust-sep" aria-hidden="true"></span>
+        <span class="videos-trust-item">
+          <i class="fa-solid fa-users" aria-hidden="true"></i>
+          לכל המשפחה
+        </span>
+        <span class="videos-trust-sep" aria-hidden="true"></span>
+        <span class="videos-trust-item">
+          <i class="fa-solid fa-star" aria-hidden="true"></i>
+          חוויה אמיתית
+        </span>
+      </div>
+    </div>
 
-        <!-- Decorative route lines -->
-        <div class="yhs-route-lines" aria-hidden="true">
-          <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 320 260" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-            <path d="M0 200 Q80 160 160 180 T320 140" stroke="#D9A441" stroke-width="1.5" stroke-dasharray="8 5" opacity="0.22" fill="none"></path>
-            <path d="M0 230 Q100 190 200 210 T320 170" stroke="#1F3A5F" stroke-width="1" stroke-dasharray="5 6" opacity="0.14" fill="none"></path>
-            <circle cx="60" cy="195" r="4" fill="#D9A441" opacity="0.3"></circle>
-            <circle cx="160" cy="180" r="3" fill="#1F3A5F" opacity="0.2"></circle>
-            <circle cx="270" cy="145" r="4" fill="#D9A441" opacity="0.3"></circle>
-          </svg>
-        </div>
-
-        <!-- Glass Card -->
-        <div class="yhs-glass-card">
-          <!-- Thumbnail Area -->
-          <div class="yhs-thumbnail-wrap">
-            <img data-hero-bg="true" data-context="A vibrant, joyful family group on a scenic Israeli outdoor trip — parents and children laughing together near a beautiful landscape with green hills and blue sky, warm golden sunlight, premium travel photography style, editorial quality" width="600" height="340" src="/assets/section-hero-youtube-hero-image-1.webp" alt="משפחה מאושרת בטיול טבע ישראלי">
-            <!-- Play Button Overlay -->
-            <div class="yhs-play-overlay" aria-hidden="true">
-              <div class="yhs-play-btn">
-                <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
-                  <circle cx="24" cy="24" r="24" fill="rgba(31,58,95,0.82)"></circle>
-                  <polygon points="19,14 38,24 19,34" fill="#D9A441"></polygon>
-                </svg>
-              </div>
+    <!-- Left column: Glass card display -->
+    <div class="videos-hero-card-col">
+      <div class="videos-glass-card">
+        <!-- Main video thumbnail -->
+        <div class="videos-main-thumb">
+          <img data-hero-bg="true" data-context="A vibrant, high-energy screenshot or thumbnail from a family travel and entertainment video in Israel — showing a joyful family group on a scenic outdoor excursion, bright landscape, warm sunlight, lush greenery or a famous Israeli landmark in the background, cinematic travel photography style" width="600" height="340" src="/assets/section-hero-videos-hero-image-1.webp" alt="סרטון טיול משפחתי מרהיב בטבע הישראלי" class="videos-main-thumb-img">
+          <!-- Play icon overlay -->
+          <div class="videos-play-overlay" aria-hidden="true">
+            <div class="videos-play-btn">
+              <i class="fa-solid fa-play"></i>
             </div>
           </div>
+          <!-- Video label -->
+          <div class="videos-main-label">הסרטון האחרון</div>
+        </div>
 
-          <!-- Card Meta -->
-          <div class="yhs-card-meta">
-            <div class="yhs-card-label">סרטון מומלץ</div>
-            <h3 class="yhs-card-title">טיול משפחתי בצפון — חוויה שתישאר לנצח</h3>
-            <div class="yhs-card-info">
-              <span class="yhs-card-info-item">
-                <i class="fa-solid fa-clock" aria-hidden="true"></i>
-                12 דקות
-              </span>
-              <span class="yhs-card-info-sep" aria-hidden="true">·</span>
-              <span class="yhs-card-info-item">
-                <i class="fa-solid fa-eye" aria-hidden="true"></i>
-                4,800 צפיות
-              </span>
-              <span class="yhs-card-info-sep" aria-hidden="true">·</span>
-              <span class="yhs-card-info-item">
-                <i class="fa-brands fa-youtube" aria-hidden="true"></i>
-                יוטיוב
-              </span>
+        <!-- Two thumbnail cards -->
+        <div class="videos-thumb-row">
+          <div class="videos-thumb-card">
+            <div class="videos-thumb-img-wrap">
+              <div class="videos-thumb-placeholder videos-thumb-placeholder-1"></div>
+              <div class="videos-thumb-play-sm" aria-hidden="true"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="videos-thumb-info">
+              <span class="videos-thumb-title">טיול לגולן המרהיב</span>
+              <span class="videos-thumb-meta">12:34 • 4.8K צפיות</span>
+            </div>
+          </div>
+          <div class="videos-thumb-card">
+            <div class="videos-thumb-img-wrap">
+              <div class="videos-thumb-placeholder videos-thumb-placeholder-2"></div>
+              <div class="videos-thumb-play-sm" aria-hidden="true"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="videos-thumb-info">
+              <span class="videos-thumb-title">הצגה מיוחדת לילדים</span>
+              <span class="videos-thumb-meta">08:21 • 3.2K צפיות</span>
             </div>
           </div>
         </div>
-      </div>
 
+        <!-- Card footer -->
+        <div class="videos-card-footer">
+          <i class="fa-brands fa-youtube videos-yt-icon" aria-hidden="true"></i>
+          <span>ערוץ ליובאוויטשער רופן ביוטיוב</span>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="videos-yt-link">לערוץ <i class="fa-solid fa-arrow-left"></i></a>
+        </div>
+      </div>
     </div>
   </div>
 
-  <!-- Bottom Gold Divider Line -->
-  <div class="yhs-bottom-rule" aria-hidden="true"></div>
+  <!-- Bottom section divider -->
+  <div class="videos-hero-divider-bottom" aria-hidden="true">
+    <hr class="videos-section-rule">
+  </div>
 </section>
 
-<section class="youtube-gallery-section" data-layout-spec="סרטוני יוטיוב-gallery" dir="rtl">
-  <!-- Decorative top rule -->
-  <div class="yg-top-rule" aria-hidden="true"></div>
+<section class="videos-gallery-section" data-layout-spec="סרטוני יוטיוב-gallery" dir="rtl">
+  <div class="videos-gallery-container">
 
-  <div class="yg-container">
     <!-- Section Header -->
-    <header class="yg-header">
-      <h2 class="yg-title">סרטוני הטיולים שלנו</h2>
-      <p class="yg-subtitle">צפו בסרטוני הוידאו שלנו וגלו את העולם של ליובאוויטשער רופן — טיולים, חוויות ובידור מכל הלב, ישירות מהשטח.</p>
-    </header>
+    <div class="videos-gallery-header">
+      <h2 class="videos-gallery-title">סרטונים מהשטח</h2>
+      <p class="videos-gallery-subtitle">הצצה אמיתית לחוויות שאנחנו יוצרים — טיולים, בידור ורגעים שנשארים בלב לנצח</p>
+      <div class="videos-gallery-rule" aria-hidden="true"></div>
+    </div>
 
     <!-- Video Cards Grid -->
-    <div class="yg-grid">
+    <div class="videos-gallery-grid">
 
-      <!-- Card 1 — Featured (accent top bar) -->
-      <article class="yg-card yg-card--featured">
-        <div class="yg-card-thumb">
-          <img data-context="Joyful Jewish family group on a scenic outdoor trip in Israel, smiling and walking together on a mountain trail, lush green landscape, warm golden hour light, travel and entertainment business thumbnail style" width="600" height="338" src="/assets/section-gallery-youtube-gallery-image-1.webp" alt="משפחה שמחה בטיול טבע בישראל">
-          <div class="yg-play-btn" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="20" cy="20" r="20" fill="rgba(255,255,255,0.92)"></circle>
-              <polygon points="16,12 30,20 16,28" fill="var(--primary)"></polygon>
+      <!-- Card 1 -->
+      <article class="video-card">
+        <div class="video-card-thumb">
+          <img data-context="Family group on a scenic Israeli nature hike, smiling and walking on a trail with green hills and blue sky, warm golden light, travel and tourism photography style" width="600" height="338" src="/assets/section-gallery-videos-gallery-image-1.webp" alt="טיול משפחתי בטבע הישראלי">
+          <div class="video-card-badge">טיול טבע</div>
+          <div class="video-card-play" aria-hidden="true">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+              <circle cx="24" cy="24" r="22" fill="rgba(255,255,255,0.92)" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"></circle>
+              <polygon points="19,14 37,24 19,34" fill="var(--primary)"></polygon>
             </svg>
           </div>
         </div>
-        <div class="yg-card-body">
-          <h3 class="yg-card-title">טיול משפחתי בטבע הישראלי</h3>
-          <p class="yg-card-desc">צפו בחוויה מרגשת של משפחות שנסעו איתנו לאתרי טבע מרהיבים ברחבי הארץ.</p>
-          <a href="https://www.youtube.com/@lubavitcherrufen" target="_blank" rel="noopener noreferrer" class="yg-watch-link">
-            <span>צפייה ביוטיוב</span>
-            <svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M10 7H4M7 4l-3 3 3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-          </a>
+        <div class="video-card-body">
+          <h3 class="video-card-title">טיול יום בגליל העליון</h3>
+          <p class="video-card-desc">חוויה בלתי נשכחת בין נחלים ירוקים ונופים מרהיבים — מתאים לכל המשפחה.</p>
         </div>
       </article>
 
       <!-- Card 2 -->
-      <article class="yg-card">
-        <div class="yg-card-thumb">
-          <img data-context="Excited group of Jewish children and adults at an entertainment event, colorful stage lights, festive atmosphere, smiling faces, indoor entertainment venue, vibrant and joyful scene for a travel and entertainment company" width="600" height="338" src="/assets/section-gallery-youtube-gallery-image-2.webp" alt="אירוע בידור לילדים ומשפחות">
-          <div class="yg-play-btn" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="20" cy="20" r="20" fill="rgba(255,255,255,0.92)"></circle>
-              <polygon points="16,12 30,20 16,28" fill="var(--primary)"></polygon>
+      <article class="video-card">
+        <div class="video-card-thumb">
+          <img data-context="Large group of people enjoying an outdoor entertainment show or performance at a scenic Israeli outdoor venue, festive atmosphere, colorful lighting, happy crowd" width="600" height="338" src="/assets/section-gallery-videos-gallery-image-2.webp" alt="אירוע בידור קבוצתי בפתח רב">
+          <div class="video-card-badge">בידור קבוצתי</div>
+          <div class="video-card-play" aria-hidden="true">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+              <circle cx="24" cy="24" r="22" fill="rgba(255,255,255,0.92)" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"></circle>
+              <polygon points="19,14 37,24 19,34" fill="var(--primary)"></polygon>
             </svg>
           </div>
         </div>
-        <div class="yg-card-body">
-          <h3 class="yg-card-title">ערב בידור מיוחד לכל המשפחה</h3>
-          <p class="yg-card-desc">הצצה לאחד מאירועי הבידור הייחודיים שלנו — שעות של שמחה, מוזיקה וחוויות בלתי נשכחות.</p>
-          <a href="https://www.youtube.com/@lubavitcherrufen" target="_blank" rel="noopener noreferrer" class="yg-watch-link">
-            <span>צפייה ביוטיוב</span>
-            <svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M10 7H4M7 4l-3 3 3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-          </a>
+        <div class="video-card-body">
+          <h3 class="video-card-title">ערב בידור לקבוצות גדולות</h3>
+          <p class="video-card-desc">תוכנית בידור מקצועית שמחברת אנשים ומייצרת זיכרונות משותפים לשנים.</p>
         </div>
       </article>
 
       <!-- Card 3 -->
-      <article class="yg-card">
-        <div class="yg-card-thumb">
-          <img data-context="Scenic panoramic view of a famous Israeli tourist destination such as Masada or the Sea of Galilee, with a group of happy Jewish tourists in the foreground, bright sunny day, travel catalog style photography" width="600" height="338" src="/assets/section-gallery-youtube-gallery-image-3.webp" alt="טיול קבוצתי לאתר תיירות בישראל">
-          <div class="yg-play-btn" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="20" cy="20" r="20" fill="rgba(255,255,255,0.92)"></circle>
-              <polygon points="16,12 30,20 16,28" fill="var(--primary)"></polygon>
+      <article class="video-card">
+        <div class="video-card-thumb">
+          <img data-context="Children and families at a fun outdoor activity day in Israel, kids playing games, colorful balloons and activities, sunny day, joyful atmosphere, travel and entertainment" width="600" height="338" src="/assets/section-gallery-videos-gallery-image-3.webp" alt="פעילות ילדים ומשפחות בחוץ">
+          <div class="video-card-badge">פעילות ילדים</div>
+          <div class="video-card-play" aria-hidden="true">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+              <circle cx="24" cy="24" r="22" fill="rgba(255,255,255,0.92)" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"></circle>
+              <polygon points="19,14 37,24 19,34" fill="var(--primary)"></polygon>
             </svg>
           </div>
         </div>
-        <div class="yg-card-body">
-          <h3 class="yg-card-title">סיור קבוצתי לאתרי מורשת</h3>
-          <p class="yg-card-desc">טיול מרתק לאתרי המורשת הגדולים של ישראל — היסטוריה, נוף ורוח עם הצוות שלנו.</p>
-          <a href="https://www.youtube.com/@lubavitcherrufen" target="_blank" rel="noopener noreferrer" class="yg-watch-link">
-            <span>צפייה ביוטיוב</span>
-            <svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M10 7H4M7 4l-3 3 3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-          </a>
+        <div class="video-card-body">
+          <h3 class="video-card-title">יום כיף לילדים ולמשפחות</h3>
+          <p class="video-card-desc">פעילויות מגוונות שמותאמות לכל גיל — כי כיף אמיתי מתחיל כשכולם מחייכים.</p>
         </div>
       </article>
 
       <!-- Card 4 -->
-      <article class="yg-card">
-        <div class="yg-card-thumb yg-card-thumb--placeholder">
-          <div class="yg-thumb-fallback" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="48" height="48" rx="4" fill="var(--secondary)"></rect>
-              <polygon points="20,15 36,24 20,33" fill="var(--primary)" opacity="0.5"></polygon>
-            </svg>
-          </div>
-          <div class="yg-play-btn" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="20" cy="20" r="20" fill="rgba(255,255,255,0.92)"></circle>
-              <polygon points="16,12 30,20 16,28" fill="var(--primary)"></polygon>
+      <article class="video-card">
+        <div class="video-card-thumb video-card-thumb--placeholder">
+          <div class="video-thumb-color-bg" style="background: linear-gradient(135deg, #1F3A5F 0%, #2d5080 100%);"></div>
+          <div class="video-card-badge">סיור עירוני</div>
+          <div class="video-card-play" aria-hidden="true">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+              <circle cx="24" cy="24" r="22" fill="rgba(255,255,255,0.92)" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"></circle>
+              <polygon points="19,14 37,24 19,34" fill="var(--primary)"></polygon>
             </svg>
           </div>
         </div>
-        <div class="yg-card-body">
-          <h3 class="yg-card-title">חגיגת שבת מיוחדת בטבע</h3>
-          <p class="yg-card-desc">חוויה רוחנית ומרגשת — שבת קודש בלב הטבע עם שירה, תפילה ואחווה אמיתית.</p>
-          <a href="https://www.youtube.com/@lubavitcherrufen" target="_blank" rel="noopener noreferrer" class="yg-watch-link">
-            <span>צפייה ביוטיוב</span>
-            <svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M10 7H4M7 4l-3 3 3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-          </a>
+        <div class="video-card-body">
+          <h3 class="video-card-title">סיור מודרך בירושלים</h3>
+          <p class="video-card-desc">מסע היסטורי ותרבותי ברחובות ירושלים — חוויה מעמיקה שמדברת אל הלב.</p>
         </div>
       </article>
 
       <!-- Card 5 -->
-      <article class="yg-card">
-        <div class="yg-card-thumb yg-card-thumb--placeholder">
-          <div class="yg-thumb-fallback" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="48" height="48" rx="4" fill="var(--secondary)"></rect>
-              <polygon points="20,15 36,24 20,33" fill="var(--primary)" opacity="0.5"></polygon>
-            </svg>
-          </div>
-          <div class="yg-play-btn" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="20" cy="20" r="20" fill="rgba(255,255,255,0.92)"></circle>
-              <polygon points="16,12 30,20 16,28" fill="var(--primary)"></polygon>
+      <article class="video-card">
+        <div class="video-card-thumb video-card-thumb--placeholder">
+          <div class="video-thumb-color-bg" style="background: linear-gradient(135deg, #D9A441 0%, #b8832a 100%);"></div>
+          <div class="video-card-badge">חוויה ייחודית</div>
+          <div class="video-card-play" aria-hidden="true">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+              <circle cx="24" cy="24" r="22" fill="rgba(255,255,255,0.92)" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"></circle>
+              <polygon points="19,14 37,24 19,34" fill="var(--primary)"></polygon>
             </svg>
           </div>
         </div>
-        <div class="yg-card-body">
-          <h3 class="yg-card-title">טיול ילדים — הרפתקה בלתי נשכחת</h3>
-          <p class="yg-card-desc">ילדים מאושרים, הורים רגועים — כך נראה הטיול המושלם שאנחנו מארגנים עבורכם.</p>
-          <a href="https://www.youtube.com/@lubavitcherrufen" target="_blank" rel="noopener noreferrer" class="yg-watch-link">
-            <span>צפייה ביוטיוב</span>
-            <svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M10 7H4M7 4l-3 3 3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-          </a>
+        <div class="video-card-body">
+          <h3 class="video-card-title">חוויית שטח בדרום הארץ</h3>
+          <p class="video-card-desc">הרפתקה בנגב — שטח פתוח, שמיים אינסופיים ורגעים שאי אפשר לשכוח.</p>
         </div>
       </article>
 
       <!-- Card 6 -->
-      <article class="yg-card">
-        <div class="yg-card-thumb yg-card-thumb--placeholder">
-          <div class="yg-thumb-fallback" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="48" height="48" rx="4" fill="var(--secondary)"></rect>
-              <polygon points="20,15 36,24 20,33" fill="var(--primary)" opacity="0.5"></polygon>
-            </svg>
-          </div>
-          <div class="yg-play-btn" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="20" cy="20" r="20" fill="rgba(255,255,255,0.92)"></circle>
-              <polygon points="16,12 30,20 16,28" fill="var(--primary)"></polygon>
+      <article class="video-card">
+        <div class="video-card-thumb video-card-thumb--placeholder">
+          <div class="video-thumb-color-bg" style="background: linear-gradient(135deg, #2d5080 0%, #1F3A5F 100%);"></div>
+          <div class="video-card-badge">טיול ים</div>
+          <div class="video-card-play" aria-hidden="true">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+              <circle cx="24" cy="24" r="22" fill="rgba(255,255,255,0.92)" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"></circle>
+              <polygon points="19,14 37,24 19,34" fill="var(--primary)"></polygon>
             </svg>
           </div>
         </div>
-        <div class="yg-card-body">
-          <h3 class="yg-card-title">סיכום עונה — רגעים שנחרתו בלב</h3>
-          <p class="yg-card-desc">מבט אחורה על עונה שלמה של טיולים, אירועים וחוויות — כי כל רגע שווה לזכור.</p>
-          <a href="https://www.youtube.com/@lubavitcherrufen" target="_blank" rel="noopener noreferrer" class="yg-watch-link">
-            <span>צפייה ביוטיוב</span>
-            <svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M10 7H4M7 4l-3 3 3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-          </a>
+        <div class="video-card-body">
+          <h3 class="video-card-title">יום בחוף הים התיכון</h3>
+          <p class="video-card-desc">שמש, גלים ואוויר ים — יום מנוחה ושמחה לכל הקבוצה ליד הים.</p>
         </div>
       </article>
 
-    </div><!-- /.yg-grid -->
+    </div>
+    <!-- /Grid -->
 
-    <!-- Bottom CTA -->
-    <div class="yg-footer-cta">
-      <a href="https://www.youtube.com/@lubavitcherrufen" target="_blank" rel="noopener noreferrer" class="yg-cta-btn">
-        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z" fill="#FF0000"></path>
-          <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"></polygon>
-        </svg>
-        לכל הסרטונים בערוץ היוטיוב שלנו
-      </a>
+    <!-- Footer CTA Row -->
+    <div class="videos-gallery-footer">
+      <span class="videos-gallery-footer-text">רוצים לראות עוד? <a class="videos-gallery-footer-link" href="/contact">צרו איתנו קשר</a> לקבלת המלצות מותאמות אישית.</span>
     </div>
 
-  </div><!-- /.yg-container -->
+  </div>
 </section>
 
-<section class="youtube-features-section" data-layout-spec="סרטוני יוטיוב-features" dir="rtl">
-  <div class="youtube-features-container">
+<section class="videos-features-section" data-layout-spec="סרטוני יוטיוב-features" dir="rtl">
+  <div class="videos-features-container">
 
     <!-- Section Header -->
-    <div class="youtube-features-header">
-      <div class="youtube-features-rule" aria-hidden="true"></div>
-      <h2 class="youtube-features-title">למה כדאי לצפות בסרטונים שלנו?</h2>
-      <p class="youtube-features-subtitle">לפני שבוחרים טיול או אטרקציה, הסרטונים שלנו נותנים לכם תמונה אמיתית ומלאה — כדי שתגיעו בטוחים, מוכנים ומחויכים.</p>
+    <div class="videos-features-header">
+      <h2 class="videos-features-title">למה לבחור בנו לחוויה שלכם?</h2>
+      <p class="videos-features-intro">אנחנו מאמינים שכל טיול וכל רגע בידור מגיע עם ערך אמיתי — בטיחות, שירות, ושמחה אמיתית לכל המשפחה. הנה מה שמייחד אותנו מהשאר.</p>
     </div>
 
-    <!-- Decorative route line -->
-    <div class="youtube-features-route" aria-hidden="true">
-      <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 900 12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" class="youtube-route-svg">
-        <line x1="0" y1="6" x2="900" y2="6" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="6 10" opacity="0.35"></line>
-        <circle cx="0" cy="6" r="4" fill="var(--accent)" opacity="0.5"></circle>
-        <circle cx="300" cy="6" r="3" fill="var(--accent)" opacity="0.4"></circle>
-        <circle cx="600" cy="6" r="3" fill="var(--accent)" opacity="0.4"></circle>
-        <circle cx="900" cy="6" r="4" fill="var(--accent)" opacity="0.5"></circle>
+    <!-- Route Line Decoration -->
+    <div class="videos-features-route" aria-hidden="true">
+      <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1120 12" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <line x1="0" y1="6" x2="1120" y2="6" stroke="currentColor" stroke-width="1" stroke-dasharray="6 10" opacity="0.18"></line>
+        <circle cx="28" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.28"></circle>
+        <circle cx="1092" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.28"></circle>
       </svg>
     </div>
 
-    <!-- Cards Grid -->
-    <div class="youtube-features-grid">
+    <!-- Features Grid -->
+    <div class="videos-features-grid">
 
       <!-- Card 1 -->
-      <article class="youtube-feature-card">
-        <div class="youtube-feature-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="44" height="44">
-            <circle cx="24" cy="24" r="18"></circle>
-            <path d="M20 17l12 7-12 7V17z"></path>
+      <article class="videos-feature-card">
+        <div class="videos-feature-icon-wrap">
+          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="16" cy="16" r="13" stroke="currentColor" stroke-width="1.6"></circle>
+            <path d="M10 16l4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
-        <div class="youtube-feature-body">
-          <h3 class="youtube-feature-title">הרגישו את האווירה מראש</h3>
-          <p class="youtube-feature-desc">הסרטונים שלנו מעבירים את הצבעים, הקצב והרגש של כל יעד — כדי שתדעו בדיוק מה מחכה לכם עוד לפני שיצאתם מהבית.</p>
-        </div>
+        <h3 class="videos-feature-title">אמינות ומקצועיות</h3>
+        <p class="videos-feature-desc">ניסיון של שנים בתחום הטיולים והבידור עם אלפי משפחות מרוצות. כל פרט מתוכנן בקפידה כדי שתוכלו ליהנות בשקט נפשי מלא.</p>
       </article>
 
       <!-- Card 2 -->
-      <article class="youtube-feature-card">
-        <div class="youtube-feature-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="44" height="44">
-            <rect x="10" y="14" width="28" height="20" rx="3"></rect>
-            <path d="M18 14v-4h12v4"></path>
-            <circle cx="24" cy="24" r="4"></circle>
-            <path d="M10 30h28"></path>
+      <article class="videos-feature-card">
+        <div class="videos-feature-icon-wrap">
+          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M16 4C10.477 4 6 8.477 6 14c0 7 10 14 10 14s10-7 10-14c0-5.523-4.477-10-10-10z" stroke="currentColor" stroke-width="1.6"></path>
+            <circle cx="16" cy="14" r="3.5" stroke="currentColor" stroke-width="1.5"></circle>
           </svg>
         </div>
-        <div class="youtube-feature-body">
-          <h3 class="youtube-feature-title">הכירו את הסגנון שלנו</h3>
-          <p class="youtube-feature-desc">כל סרטון חושף את הדרך שבה אנחנו מארגנים, מלווים ומנהלים כל טיול — מקצועיות שאפשר לראות, לא רק לקרוא עליה.</p>
-        </div>
+        <h3 class="videos-feature-title">יעדים מגוונים ומרתקים</h3>
+        <p class="videos-feature-desc">מגוון רחב של יעדים לכל גיל וטעם — טבע, היסטוריה, הרפתקאות ובידור. כל טיול הוא עולם שלם שמחכה לכם לגלות.</p>
       </article>
 
       <!-- Card 3 -->
-      <article class="youtube-feature-card">
-        <div class="youtube-feature-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="44" height="44">
-            <path d="M24 10l3.5 7 7.5 1.1-5.5 5.3 1.3 7.6L24 27.5l-6.8 3.5 1.3-7.6L13 18.1l7.5-1.1z"></path>
-            <path d="M10 38h28"></path>
+      <article class="videos-feature-card">
+        <div class="videos-feature-icon-wrap">
+          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="5" y="8" width="22" height="17" rx="3" stroke="currentColor" stroke-width="1.6"></rect>
+            <path d="M5 13h22" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"></path>
+            <path d="M11 4v4M21 4v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path>
           </svg>
         </div>
-        <div class="youtube-feature-body">
-          <h3 class="youtube-feature-title">תחושת סדר וביטחון מלאים</h3>
-          <p class="youtube-feature-desc">תכנון ברור, לוחות זמנים שקופים ותיאום מושלם — הסרטונים מראים שאצלנו כל פרט מחושב מראש, כדי שאתם תוכלו פשוט ליהנות.</p>
-        </div>
+        <h3 class="videos-feature-title">הזמנה פשוטה ונוחה</h3>
+        <p class="videos-feature-desc">תהליך הזמנה מהיר ובטוח דרך האתר, ללא סיבוכים מיותרים. קבלו אישור מיידי ופרטים מלאים ישירות למייל שלכם.</p>
       </article>
 
       <!-- Card 4 -->
-      <article class="youtube-feature-card">
-        <div class="youtube-feature-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="44" height="44">
-            <circle cx="18" cy="20" r="6"></circle>
-            <circle cx="32" cy="20" r="6"></circle>
-            <path d="M8 38c0-5.5 4.5-10 10-10h12c5.5 0 10 4.5 10 10"></path>
+      <article class="videos-feature-card">
+        <div class="videos-feature-icon-wrap">
+          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M6 16c0-5.523 4.477-10 10-10s10 4.477 10 10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path>
+            <path d="M6 16a10 10 0 0010 10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path>
+            <path d="M26 16a10 10 0 01-10 10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path>
+            <circle cx="16" cy="16" r="3" stroke="currentColor" stroke-width="1.5"></circle>
+            <path d="M16 9v2M16 21v2M9 16H7M25 16h-2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"></path>
           </svg>
         </div>
-        <div class="youtube-feature-body">
-          <h3 class="youtube-feature-title">מושלם למשפחות ולקבוצות</h3>
-          <p class="youtube-feature-desc">רואים ילדים שמחים, קבוצות מגובשות וחיוכים אמיתיים — הסרטונים מוכיחים שהחוויות שלנו מתאימות לכולם, בכל גיל ובכל הרכב.</p>
-        </div>
+        <h3 class="videos-feature-title">שירות אישי מכל הלב</h3>
+        <p class="videos-feature-desc">צוות מסור שזמין לכם לפני, במהלך ואחרי הטיול. אנחנו כאן לכל שאלה, בקשה מיוחדת, ולדאוג שהחוויה שלכם תהיה מושלמת.</p>
       </article>
 
     </div>
-    <!-- /Cards Grid -->
+    <!-- End Features Grid -->
 
   </div>
 </section>
 
-<section class="youtube-reviews-section" data-layout-spec="סרטוני יוטיוב-reviews" dir="rtl">
-  <!-- Decorative passport stamp -->
-  <div class="yr-passport-stamp" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="80" cy="80" r="72" stroke="rgba(217,164,65,0.18)" stroke-width="2" stroke-dasharray="8 5"></circle>
-      <circle cx="80" cy="80" r="58" stroke="rgba(217,164,65,0.12)" stroke-width="1.5"></circle>
-      <circle cx="80" cy="80" r="44" stroke="rgba(217,164,65,0.10)" stroke-width="1"></circle>
-      <text x="80" y="74" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="9" fill="rgba(217,164,65,0.22)" letter-spacing="3">טיולים ובידור</text>
-      <text x="80" y="90" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="8" fill="rgba(217,164,65,0.18)" letter-spacing="2">מכל הלב</text>
-      <path d="M50,80 Q80,60 110,80" stroke="rgba(217,164,65,0.15)" stroke-width="1" fill="none"></path>
-      <path d="M50,82 Q80,102 110,82" stroke="rgba(217,164,65,0.15)" stroke-width="1" fill="none"></path>
-    </svg>
+<section class="videos-reviews-section" data-layout-spec="סרטוני יוטיוב-reviews" dir="rtl">
+  <div class="videos-reviews-container">
+    <div class="videos-reviews-header">
+      <h2 class="videos-reviews-title">מה הלקוחות שלנו אומרים</h2>
+      <p class="videos-reviews-intro">אלפי משפחות וקבוצות כבר חוו את הקסם של טיול מושלם איתנו. הנה מה שיש להם לשתף.</p>
+      <div class="videos-reviews-divider" aria-hidden="true"></div>
+    </div>
+    <div class="videos-reviews-grid">
+      <article class="videos-review-card">
+        <span class="videos-review-quote-mark" aria-hidden="true">“</span>
+        <blockquote class="videos-review-text">
+          <p>טיול מדהים שלא נשכח! הצוות של ליובאוויטשער רופן ידע בדיוק מה אנחנו צריכים כמשפחה עם ילדים קטנים. כל פרט היה מתוכנן בקפידה, האווירה הייתה נפלאה, וחזרנו הביתה עם זיכרונות שיישארו לנו לכל החיים.</p>
+        </blockquote>
+        <footer class="videos-review-footer">
+          <div class="videos-review-stars" aria-label="דירוג 5 כוכבים">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="videos-review-author">משפחת לוי — קבוצת משפחות, ירושלים</p>
+        </footer>
+      </article>
+      <article class="videos-review-card">
+        <span class="videos-review-quote-mark" aria-hidden="true">“</span>
+        <blockquote class="videos-review-text">
+          <p>ארגנו אצלהם יום כיף לכל הכיתה — 42 ילדים ו-12 מלווים. ההפקה הייתה ברמה הגבוהה ביותר, הפעילויות מגוונות ומתאימות לכל הגילאים, והמדריכים מקצועיים ואכפתיים. ממליצים בחום לכל מוסד חינוכי!</p>
+        </blockquote>
+        <footer class="videos-review-footer">
+          <div class="videos-review-stars" aria-label="דירוג 5 כוכבים">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="videos-review-author">גב׳ רחל כהן — מחנכת כיתה ד׳, בית ספר אורות</p>
+        </footer>
+      </article>
+      <article class="videos-review-card">
+        <span class="videos-review-quote-mark" aria-hidden="true">“</span>
+        <blockquote class="videos-review-text">
+          <p>חיפשנו חוויה מיוחדת לאירוע סיום שנה של הקהילה שלנו ומצאנו בדיוק את מה שרצינו. האירוע היה מושלם מהרגע הראשון ועד האחרון — לוגיסטיקה חלקה, אוכל טעים, ובידור לכל הגילאים. תודה רבה לצוות המדהים!</p>
+        </blockquote>
+        <footer class="videos-review-footer">
+          <div class="videos-review-stars" aria-label="דירוג 5 כוכבים">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="videos-review-author">ר׳ משה גרינברג — ראש קהילה, בני ברק</p>
+        </footer>
+      </article>
+    </div>
   </div>
+</section>
 
-  <!-- Decorative route line -->
-  <div class="yr-route-line" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 400 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,10 Q50,4 100,10 T200,10 T300,10 T400,10" stroke="rgba(217,164,65,0.18)" stroke-width="1.5" fill="none" stroke-dasharray="6 4"></path>
-      <circle cx="0" cy="10" r="3" fill="rgba(217,164,65,0.22)"></circle>
-      <circle cx="200" cy="10" r="3" fill="rgba(217,164,65,0.22)"></circle>
-      <circle cx="400" cy="10" r="3" fill="rgba(217,164,65,0.22)"></circle>
-    </svg>
-  </div>
+<section class="videos-faq-section" data-layout-spec="סרטוני יוטיוב-faq" dir="rtl">
+  <div class="videos-faq-container">
 
-  <div class="yr-container">
-    <!-- Section header -->
-    <header class="yr-header">
-      <div class="yr-header-rule" aria-hidden="true"></div>
-      <span class="yr-eyebrow">חוויות אמיתיות</span>
-      <h2 class="yr-title">מה אומרים הצופים שלנו</h2>
-      <p class="yr-subtitle">אלפי משפחות וקבוצות כבר גילו כיצד סרטוני היוטיוב שלנו עוזרים לתכנן טיולים בביטחון ובשמחה — הנה מה שהם אומרים</p>
-      <div class="yr-stars-row" aria-label="דירוג ממוצע 5 כוכבים">
-        <i class="fas fa-star" aria-hidden="true"></i>
-        <i class="fas fa-star" aria-hidden="true"></i>
-        <i class="fas fa-star" aria-hidden="true"></i>
-        <i class="fas fa-star" aria-hidden="true"></i>
-        <i class="fas fa-star" aria-hidden="true"></i>
+    <!-- Thin top decorative rule -->
+    <div class="videos-faq-top-rule" aria-hidden="true"></div>
+
+    <div class="videos-faq-layout">
+
+      <!-- Right column: intro text -->
+      <aside class="videos-faq-intro">
+        <div class="videos-faq-accent-bar" aria-hidden="true"></div>
+        <h2 class="videos-faq-heading">שאלות נפוצות</h2>
+        <p class="videos-faq-lead">כאן תמצאו תשובות לשאלות הנפוצות ביותר שעולות לפני הזמנת טיול או חוויית בידור דרכנו. אנחנו מאמינים בשקיפות מלאה ובתהליך הזמנה ברור ונוח.</p>
+        <div class="videos-faq-contact-nudge">
+          <span class="videos-faq-contact-icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          </span>
+          <small class="videos-faq-contact-text">לא מצאתם תשובה? <a href="/contact" class="videos-faq-contact-link">פנו אלינו ישירות</a> ונשמח לעזור.</small>
+        </div>
+      </aside>
+
+      <!-- Left column: FAQ list -->
+      <div class="videos-faq-list-col">
+        <div class="videos-faq-accent-stripe" aria-hidden="true"></div>
+
+        <ul class="videos-faq-list" role="list">
+
+          <li class="videos-faq-item">
+            <h3 class="videos-faq-question">כיצד מזמינים טיול או חוויית בידור?</h3>
+            <p class="videos-faq-answer">ניתן לרכוש ישירות דרך האתר שלנו בקלות ובמהירות. בחרו את החוויה המעניינת אתכם, הוסיפו לסל הקניות ועברו לתשלום מאובטח. לאחר הרכישה תקבלו אישור הזמנה במייל עם כל הפרטים הנדרשים.</p>
+          </li>
+
+          <li class="videos-faq-item">
+            <h3 class="videos-faq-question">האם הפעילויות מתאימות לכל הגילאים?</h3>
+            <p class="videos-faq-answer">רוב הטיולים וחוויות הבידור שלנו מתאימים למשפחות עם ילדים מגיל 3 ומעלה, וכן לקבוצות ומבוגרים. בכל עמוד מוצר מצוין בבירור לאיזה גיל וסוג קבוצה מיועדת הפעילות, כדי שתוכלו לבחור בביטחון.</p>
+          </li>
+
+          <li class="videos-faq-item">
+            <h3 class="videos-faq-question">מה מדיניות הביטול וההחזר?</h3>
+            <p class="videos-faq-answer">ניתן לבטל הזמנה עד 72 שעות לפני מועד הפעילות ולקבל החזר כספי מלא. ביטולים בטווח קצר יותר כפופים לדמי ביטול חלקיים. במקרים חריגים כמו מזג אוויר קיצוני, נציע תאריך חלופי ללא עלות נוספת.</p>
+          </li>
+
+          <li class="videos-faq-item">
+            <h3 class="videos-faq-question">האם ניתן להזמין פעילות לקבוצה גדולה?</h3>
+            <p class="videos-faq-answer">בהחלט! אנחנו מתמחים בארגון טיולים ואירועי בידור לקבוצות גדולות — כיתות, חברות, משפחות מורחבות ועמותות. לקבוצות מעל 15 משתתפים מומלץ ליצור קשר ישיר כדי לקבל הצעת מחיר מותאמת אישית.</p>
+          </li>
+
+          <li class="videos-faq-item videos-faq-item--last">
+            <h3 class="videos-faq-question">אילו אמצעי תשלום מתקבלים?</h3>
+            <p class="videos-faq-answer">אנחנו מקבלים את כל כרטיסי האשראי הנפוצים, ביט ופייבוקס. כל העסקאות מבוצעות דרך מערכת תשלומים מאובטחת ומוצפנת. ניתן גם לבצע תשלום בהעברה בנקאית לקבוצות — צרו קשר לפרטים.</p>
+          </li>
+
+        </ul>
       </div>
-    </header>
-
-    <!-- Reviews grid -->
-    <div class="yr-grid">
-
-      <!-- Card 1 -->
-      <article class="yr-card">
-        <div class="yr-card-inner">
-          <div class="yr-card-topic">
-            <i class="fas fa-map-marked-alt yr-topic-icon" aria-hidden="true"></i>
-            <span>סרטוני טיולי משפחה</span>
-          </div>
-          <blockquote class="yr-quote">
-            <p>"הסרטונים של ליובאוויטשער רופן שינו לנו את כל חוויית התכנון. ראינו בדיוק מה מחכה לנו בכל יעד, ויצאנו לטיול עם הילדים בלי שום חשש. הביטחון שקיבלנו לא יסולא בפז."</p>
-          </blockquote>
-          <footer class="yr-card-footer">
-            <div class="yr-avatar" aria-hidden="true">מ</div>
-            <div class="yr-author-info">
-              <span class="yr-author-name">משפחת כהן</span>
-              <span class="yr-author-sub">ירושלים</span>
-            </div>
-          </footer>
-        </div>
-        <div class="yr-card-accent-line" aria-hidden="true"></div>
-      </article>
-
-      <!-- Card 2 -->
-      <article class="yr-card">
-        <div class="yr-card-inner">
-          <div class="yr-card-topic">
-            <i class="fas fa-users yr-topic-icon" aria-hidden="true"></i>
-            <span>סרטוני טיולי קבוצות</span>
-          </div>
-          <blockquote class="yr-quote">
-            <p>"ארגנו טיול לקבוצה של שלושים איש ופחדנו מהלוגיסטיקה. אחרי שצפינו בסרטונים הרגשנו מוכנים לגמרי. כל מה שראינו בסרטון — מצאנו בשטח. שירות מדהים ותוכן אמין לחלוטין."</p>
-          </blockquote>
-          <footer class="yr-card-footer">
-            <div class="yr-avatar" aria-hidden="true">ר</div>
-            <div class="yr-author-info">
-              <span class="yr-author-name">רחל לוי</span>
-              <span class="yr-author-sub">מרכז הארץ</span>
-            </div>
-          </footer>
-        </div>
-        <div class="yr-card-accent-line" aria-hidden="true"></div>
-      </article>
-
-      <!-- Card 3 -->
-      <article class="yr-card">
-        <div class="yr-card-inner">
-          <div class="yr-card-topic">
-            <i class="fas fa-film yr-topic-icon" aria-hidden="true"></i>
-            <span>סרטוני אטרקציות ובידור</span>
-          </div>
-          <blockquote class="yr-quote">
-            <p>"הילדים שלנו ביקשו ללכת לאטרקציה שראו בסרטון. עקבנו אחרי כל ההמלצות וזה היה בדיוק כמו שהובטח — כיף אמיתי, ללא הפתעות. מרגישים שמישהו דואג לנו באמת."</p>
-          </blockquote>
-          <footer class="yr-card-footer">
-            <div class="yr-avatar" aria-hidden="true">ד</div>
-            <div class="yr-author-info">
-              <span class="yr-author-name">דוד ושרה אברהם</span>
-              <span class="yr-author-sub">חיפה</span>
-            </div>
-          </footer>
-        </div>
-        <div class="yr-card-accent-line" aria-hidden="true"></div>
-      </article>
 
     </div>
-    <!-- End reviews grid -->
-
-    <!-- Bottom CTA strip -->
-    <div class="yr-cta-strip">
-      <p class="yr-cta-text">רוצים לצפות בסרטונים ולתכנן את הטיול הבא שלכם?</p>
-      <a href="/contact" class="btn-pill yr-cta-btn">
-        <i class="fab fa-youtube" aria-hidden="true"></i>
-        לערוץ היוטיוב שלנו
-      </a>
-    </div>
-
-  </div>
-
-  <!-- Bottom divider to light section -->
-  <div class="yr-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,70 L0,32 Q100,22 200,30 T400,26 Q500,30 600,22 T800,28 Q900,22 1000,30 T1200,24 L1200,70 Z" fill="var(--bg-light)"></path>
-    </svg>
   </div>
 </section>
 
-<section class="youtube-faq-section" data-layout-spec="סרטוני יוטיוב-faq" dir="rtl">
-  <div class="youtube-faq-inner">
+<section class="videos-cta-section" data-layout-spec="סרטוני יוטיוב-cta" dir="rtl">
+  <div class="videos-cta-outer">
+    <div class="videos-cta-card">
+      <!-- Decorative accent line top -->
+      <div class="videos-cta-accent-line" aria-hidden="true"></div>
 
-    <!-- Section Header -->
-    <header class="youtube-faq-header">
-      <div class="youtube-faq-rule" aria-hidden="true"></div>
-      <h2 class="youtube-faq-title">שאלות נפוצות על סרטוני היוטיוב שלנו</h2>
-      <p class="youtube-faq-subtitle">אספנו עבורכם את השאלות שחוזרות אלינו הכי הרבה — כדי שתוכלו להכיר אותנו טוב יותר לפני שאתם מתחילים לגלות.</p>
-    </header>
+      <!-- Card inner layout -->
+      <div class="videos-cta-inner">
 
-    <!-- FAQ List -->
-    <div class="youtube-faq-list" role="list">
-
-      <!-- Item 1 -->
-      <article class="youtube-faq-item" role="listitem">
-        <h3 class="youtube-faq-question">אילו סוגי סרטונים תמצאו בערוץ שלנו?</h3>
-        <div class="youtube-faq-divider" aria-hidden="true"></div>
-        <p class="youtube-faq-answer">הערוץ שלנו מציג מגוון רחב של תוכן — מסרטוני הדגשת יעדים ואטרקציות, דרך סיורים וירטואליים בחוויות שאנו מציעים, ועד לסרטוני אירועים מיוחדים וחגיגות קבוצתיות. כל סרטון מעוצב כדי לתת לכם טעימה אמיתית מהחוויה לפני שאתם מגיעים.</p>
-      </article>
-
-      <!-- Item 2 -->
-      <article class="youtube-faq-item" role="listitem">
-        <h3 class="youtube-faq-question">באיזו תדירות מתעדכן הערוץ בתוכן חדש?</h3>
-        <div class="youtube-faq-divider" aria-hidden="true"></div>
-        <p class="youtube-faq-answer">אנחנו שואפים להעלות סרטונים חדשים באופן קבוע — בדרך כלל מספר פעמים בחודש. בעונות שיא של טיולים ואירועים, התדירות עולה ותוכלו לצפות לתוכן טרי שמשקף את הנעשה בשטח בזמן אמת.</p>
-      </article>
-
-      <!-- Item 3 -->
-      <article class="youtube-faq-item" role="listitem">
-        <h3 class="youtube-faq-question">האם הסרטונים משקפים אירועים ופעילויות אמיתיים?</h3>
-        <div class="youtube-faq-divider" aria-hidden="true"></div>
-        <p class="youtube-faq-answer">בהחלט. כל הסרטונים מצולמים בפעילויות ובאירועים שאנחנו מארגנים בפועל. אין כאן תוכן מבוים — מה שתראו בסרטון הוא בדיוק מה שמחכה לכם. אנחנו מאמינים בשקיפות מלאה כדי שתוכלו לבחור בביטחון.</p>
-      </article>
-
-      <!-- Item 4 -->
-      <article class="youtube-faq-item" role="listitem">
-        <h3 class="youtube-faq-question">האם ניתן לראות סרטונים לפי קטגוריית טיול או אירוע?</h3>
-        <div class="youtube-faq-divider" aria-hidden="true"></div>
-        <p class="youtube-faq-answer">כן. בערוץ היוטיוב שלנו תמצאו פלייליסטים מסודרים לפי נושאים — טיולי משפחות, אירועי קבוצות, חגיגות ושמחות, ועוד. כך תוכלו למצוא בקלות את התוכן הרלוונטי ביותר עבורכם ועבור הקבוצה שלכם.</p>
-      </article>
-
-      <!-- Item 5 -->
-      <article class="youtube-faq-item" role="listitem">
-        <h3 class="youtube-faq-question">האם ניתן לשתף את הסרטונים עם חברים ובני משפחה?</h3>
-        <div class="youtube-faq-divider" aria-hidden="true"></div>
-        <p class="youtube-faq-answer">כמובן! כל הסרטונים פתוחים לצפייה ושיתוף חופשי. אנחנו מעודדים אתכם לשתף עם כל מי שעשוי להיות מעוניין — ככה מתחילות הרפתקאות משותפות. לחצו על כפתור השיתוף ביוטיוב ושלחו לחברים.</p>
-      </article>
-
-      <!-- Item 6 -->
-      <article class="youtube-faq-item" role="listitem">
-        <h3 class="youtube-faq-question">ראיתי סרטון ורוצה לדעת יותר על הפעילות — מה עושים?</h3>
-        <div class="youtube-faq-divider" aria-hidden="true"></div>
-        <p class="youtube-faq-answer">שמחים לשמוע! אם סרטון מסוים עורר את סקרנותכם, הדרך הפשוטה ביותר היא לפנות אלינו ישירות. הצוות שלנו ישמח לספק פרטים מלאים, מחירים ומועדים זמינים — בלי התחייבות.</p>
-      </article>
-
-    </div>
-
-    <!-- Bottom CTA transition message -->
-    <div class="youtube-faq-cta-block">
-      <div class="youtube-faq-cta-rule" aria-hidden="true"></div>
-      <p class="youtube-faq-cta-text">לא מצאתם תשובה לשאלה שלכם? אנחנו כאן בשבילכם.</p>
-      <a href="/contact" class="btn-pill youtube-faq-cta-btn">צרו קשר עכשיו</a>
-    </div>
-
-  </div>
-</section>
-
-<section class="youtube-cta-section" data-layout-spec="סרטוני יוטיוב-cta" dir="rtl">
-  <div class="youtube-cta-container">
-    <div class="youtube-cta-card">
-      <div class="youtube-cta-card-top-bar" aria-hidden="true"></div>
-      <div class="youtube-cta-card-inner">
-        <div class="youtube-cta-ornament" aria-hidden="true">
-          <svg data-no-icon-edit="true" aria-hidden="true" width="48" height="12" viewBox="0 0 48 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line x1="0" y1="6" x2="16" y2="6" stroke="currentColor" stroke-width="1" opacity="0.25"></line>
-            <circle cx="24" cy="6" r="3" fill="currentColor" opacity="0.35"></circle>
-            <line x1="32" y1="6" x2="48" y2="6" stroke="currentColor" stroke-width="1" opacity="0.25"></line>
-          </svg>
+        <!-- Right column: text -->
+        <div class="videos-cta-text">
+          <h2 class="videos-cta-heading">מוכנים לצאת להרפתקה הבאה?</h2>
+          <p class="videos-cta-desc">הצטרפו לאלפי משפחות וקבוצות שכבר גילו את עולם הטיולים והבידור שלנו. בחרו חוויה, הזמינו בקלות, וצרו זיכרונות שישארו לנצח.</p>
+          <ul class="videos-cta-highlights">
+            <li>
+              <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>מגוון יעדים לכל גיל ורמת ניסיון</span>
+            </li>
+            <li>
+              <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>הזמנה בטוחה ונוחה באונליין</span>
+            </li>
+            <li>
+              <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>ליווי מקצועי לאורך כל הדרך</span>
+            </li>
+          </ul>
         </div>
-        <h2 class="youtube-cta-heading">מוכנים לצאת לדרך?</h2>
-        <p class="youtube-cta-sub">בין אם אתם משפחה שמחפשת הרפתקה בלתי נשכחת, קבוצה שרוצה חוויה מיוחדת, או זוג שחולם על טיול מושלם — אנחנו כאן בשבילכם. צרו קשר ונתאים יחד את הטיול המושלם.</p>
-        <div class="youtube-cta-buttons">
-          <a href="/contact" class="btn-primary youtube-cta-btn-primary">
-            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-            צרו קשר עכשיו
-          </a>
-          <a href="https://www.youtube.com/@ליובאוויטשעררופן" target="_blank" rel="noopener noreferrer" class="btn-secondary youtube-cta-btn-secondary">
-            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
-            לערוץ היוטיוב
-          </a>
+
+        <!-- Left column: buttons -->
+        <div class="videos-cta-buttons">
+          <a href="/contact" class="btn-primary videos-cta-btn-primary">צרו קשר עכשיו</a>
+          <a href="/tours" class="btn-secondary videos-cta-btn-secondary">לכל הטיולים</a>
         </div>
-        <p class="youtube-cta-tagline">
-          <i class="fa-solid fa-heart youtube-cta-heart-icon" aria-hidden="true"></i>
-          שירות אישי, התאמה מלאה למשפחות ולקבוצות — מכל הלב
-        </p>
+
       </div>
+
+      <!-- Decorative passport stamp bottom-left -->
+      <div class="videos-cta-stamp" aria-hidden="true">
+        <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" width="120" height="120">
+          <circle cx="60" cy="60" r="54" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-dasharray="6 4" opacity="0.18"></circle>
+          <circle cx="60" cy="60" r="42" fill="none" stroke="var(--accent)" stroke-width="1.5" opacity="0.12"></circle>
+          <text x="60" y="53" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="9" fill="var(--accent)" opacity="0.22" letter-spacing="3">ליובאוויטשער</text>
+          <text x="60" y="65" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="7" fill="var(--accent)" opacity="0.18" letter-spacing="2">טיולים ובידור</text>
+          <text x="60" y="76" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="7" fill="var(--accent)" opacity="0.18" letter-spacing="2">✦ מכל הלב ✦</text>
+        </svg>
+      </div>
+
     </div>
   </div>
 </section></main>
