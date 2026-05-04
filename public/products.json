@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-04T18:18:10.605Z",
+  "generated_at": "2026-05-04T18:52:07.447Z",
   "base_url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app",
   "currency": "ILS",
-  "count": 3,
+  "count": 4,
   "products": [
+    {
+      "id": "e14fa96f-bf53-4e4d-974e-8c16620cadcb",
+      "slug": "chvltsh-am-hlvgv-shlnv-lfs5ue",
+      "name": "חולצה עם הלוגו שלנו",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שימו לב המוצר לא זהה לתמונה כלל",
+      "sku": null,
+      "brand": null,
+      "price": 80,
+      "base_price": 80,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/image-product-image-1777920551332-ubo6bk.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/chvltsh-am-hlvgv-shlnv-lfs5ue",
+      "categories": [
+        "ביגוד"
+      ],
+      "updated_at": "2026-05-04T18:51:36.573Z"
+    },
     {
       "id": "a3526415-0026-4512-a4a2-81961abb51e6",
       "slug": "spr-tlpvn-hshkvp-jm7pmq",
