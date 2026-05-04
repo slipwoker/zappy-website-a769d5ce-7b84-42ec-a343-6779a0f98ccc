@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-04T21:05:12.132Z",
+  "generated_at": "2026-05-04T21:14:06.966Z",
   "base_url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app",
   "currency": "ILS",
-  "count": 5,
+  "count": 6,
   "products": [
+    {
+      "id": "681bbbf2-115f-4326-b01e-36d884cc774e",
+      "slug": "tyvl-mslvl-nchl-avg-i0bfuw",
+      "name": "טיול מסלול נחל אוג",
+      "name_translations": {},
+      "description": "",
+      "short_description": "המסלול המעגלי הפופולרי בנחל אוג הוא נחל אוג תחתון, מסלול אתגרי קצר החווייתי במיוחד למשפחות בזכות הטיפוס בסולמות בתוך נקיק צר ומרשים.",
+      "sku": null,
+      "brand": null,
+      "price": 320,
+      "base_price": 470,
+      "sale_price": 320,
+      "currency": "ILS",
+      "images": [
+        "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/product-autofit-1777929202584-sapgp.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/tyvl-mslvl-nchl-avg-i0bfuw",
+      "categories": [
+        "טיולים"
+      ],
+      "updated_at": "2026-05-04T21:13:54.861Z"
+    },
     {
       "id": "716fdee8-057b-4d0e-9ac3-17b5add5f5f0",
       "slug": "mslvl-avpnyym-svbb-yrvshlym-ktsr-r2c851",
