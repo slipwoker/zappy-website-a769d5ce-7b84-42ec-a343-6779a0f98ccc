@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 1**
+**Total active products: 2**
+
+### טיול ים אל ים
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/tyvl-ym-al-ym-4yhvsl
+- Price: 250.00 ILS (sale, was 400.00 ILS)
+- Availability: In stock
+- Description: מסע ים אל ים הוא מהטרקים המרהיבים בישראל (כ-70-80 ק"מ), המחבר בין חוף אכזיב לחוף גינוסר דרך נופי הגליל. חלוקה ל-4 ימים היא האידיאלית להנאה מנחלי הגליל המערבי, מבצר המונפורט ופסגות המירון. להלן הצעה לחלוקה קלאסית ב-4 ימים:
+- Image: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/product-1777911713879-s233j.webp
 
 ### טיול בשביל ישראל
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/tyvl-bshbyl-yshral-rutll0

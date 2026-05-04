@@ -1,10 +1,32 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-04T16:21:43.818Z",
+  "generated_at": "2026-05-04T16:23:51.776Z",
   "base_url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app",
   "currency": "ILS",
-  "count": 1,
+  "count": 2,
   "products": [
+    {
+      "id": "9c5efe79-2811-49d6-8a66-32d1053f08a8",
+      "slug": "tyvl-ym-al-ym-4yhvsl",
+      "name": "טיול ים אל ים",
+      "name_translations": {},
+      "description": "",
+      "short_description": "מסע ים אל ים הוא מהטרקים המרהיבים בישראל (כ-70-80 ק\"מ), המחבר בין חוף אכזיב לחוף גינוסר דרך נופי הגליל. חלוקה ל-4 ימים היא האידיאלית להנאה מנחלי הגליל המערבי, מבצר המונפורט ופסגות המירון. להלן הצעה לחלוקה קלאסית ב-4 ימים:",
+      "sku": null,
+      "brand": null,
+      "price": 250,
+      "base_price": 400,
+      "sale_price": 250,
+      "currency": "ILS",
+      "images": [
+        "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/product-1777911713879-s233j.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/tyvl-ym-al-ym-4yhvsl",
+      "categories": [],
+      "updated_at": "2026-05-04T16:23:20.970Z"
+    },
     {
       "id": "3409af40-c1be-4e2c-8f02-2290ff1adbeb",
       "slug": "tyvl-bshbyl-yshral-rutll0",
