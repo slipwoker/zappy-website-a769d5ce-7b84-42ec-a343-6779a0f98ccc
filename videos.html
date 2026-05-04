@@ -2610,7 +2610,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "a769d5ce-7b84-42ec-a343-6779a0f98ccc";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
+<script>window.ZAPPY_WEBSITE_ID = "a769d5ce-7b84-42ec-a343-6779a0f98ccc";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -3138,7 +3138,7 @@
       <div class="videos-glass-card">
         <!-- Main video thumbnail -->
         <div class="videos-main-thumb">
-          <img data-hero-bg="true" data-context="A vibrant, high-energy screenshot or thumbnail from a family travel and entertainment video in Israel — showing a joyful family group on a scenic outdoor excursion, bright landscape, warm sunlight, lush greenery or a famous Israeli landmark in the background, cinematic travel photography style" width="600" height="340" src="/assets/section-hero-videos-hero-image-1.webp" alt="סרטון טיול משפחתי מרהיב בטבע הישראלי" class="videos-main-thumb-img">
+          <img data-hero-bg="true" data-context="A vibrant, high-energy screenshot or thumbnail from a family travel and entertainment video in Israel — showing a joyful family group on a scenic outdoor excursion, bright landscape, warm sunlight, lush greenery or a famous Israeli landmark in the background, cinematic travel photography style" width="600" height="340" src="/assets/section-hero-videos-hero-image-1.webp" alt="סרטון טיול משפחתי מרהיב בטבע הישראלי" class="videos-main-thumb-img" data-zappy-editable-image="true">
           <!-- Play icon overlay -->
           <div class="videos-play-overlay" aria-hidden="true">
             <div class="videos-play-btn">
@@ -3194,36 +3194,21 @@
 
     <!-- Section Header -->
     <div class="videos-gallery-header">
-      <h2 class="videos-gallery-title">סרטונים מהשטח</h2>
+      <h2 class="videos-gallery-title" style="">סרטונים מהשטח</h2>
       <p class="videos-gallery-subtitle">הצצה אמיתית לחוויות שאנחנו יוצרים — טיולים, בידור ורגעים שנשארים בלב לנצח</p>
       <div class="videos-gallery-rule" aria-hidden="true"></div>
     </div>
 
     <!-- Video Cards Grid -->
-    <article class="video-card">
-        <div class="video-card-thumb video-card-thumb--placeholder">
-          <div class="video-thumb-color-bg" style="background: linear-gradient(135deg, #2d5080 0%, #1F3A5F 100%);"></div>
-          <div class="video-card-badge">טיול ים</div>
-          <div class="video-card-play" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
-              <circle cx="24" cy="24" r="22" fill="rgba(255,255,255,0.92)" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"></circle>
-              <polygon points="19,14 37,24 19,34" fill="var(--primary)"></polygon>
-            </svg>
-          </div>
-        </div>
-        <div class="video-card-body">
-          <h3 class="video-card-title">יום בחוף הים התיכון</h3>
-          <p class="video-card-desc" style="color: rgb(30, 36, 48) !important;">שמש, גלים ואוויר ים — יום מנוחה ושמחה לכל הקבוצה ליד הים.</p>
-        </div>
-      </article>
+    
     <!-- /Grid -->
 
     <!-- Footer CTA Row -->
-    <div class="videos-gallery-footer">
+    <div class="videos-gallery-footer" style="">
       <span class="videos-gallery-footer-text">רוצים לראות עוד? <a class="videos-gallery-footer-link" href="/contact">צרו איתנו קשר</a> לקבלת המלצות מותאמות אישית.</span>
     </div>
 
-  </div>
+  <div class="zappy-inserted-element" id="zappy-element-1777930727817-kd782wrs9" data-element-id="zappy-element-1777930727817-kd782wrs9" data-element-type="video" style="max-width: 1440px; margin: 20px auto; display: flex; justify-content: center;"><div style="width: 100%; max-width: 600px; display: block; margin-left: auto; margin-right: auto;"><div style="position: relative; width: 100%; max-width: 800px; height: 0px; padding-bottom: 56.25%; background: rgb(0, 0, 0); border-radius: 8px; overflow: hidden;" data-element-type="video" data-element-id="zappy-element-1777930727817-kd782wrs9" id="zappy-element-1777930727817-kd782wrs9"><iframe src="https://www.youtube.com/embed/cm8jznnXXXg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div></div></div></div>
 </section>
 
 <section class="videos-features-section" data-layout-spec="סרטוני יוטיוב-features" dir="rtl">
