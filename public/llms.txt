@@ -74,13 +74,13 @@ Information about WCAG compliance and accessibility features.
 
 **Total active products: 4**
 
-### חולצה עם הלוגו שלנו
-https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/chvltsh-am-hlvgv-shlnv-lfs5ue
+### חולצה עם הלוגו שלנו מידה 18
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/chvltsh-am-hlvgv-shlnv-mydh-18-95q1fp
 - Price: 80.00 ILS
 - Availability: In stock
 - Category: ביגוד
 - Description: שימו לב המוצר לא זהה לתמונה כלל
-- Image: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/image-product-image-1777920551332-ubo6bk.webp
+- Image: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/product-enhanced-1777921176142-c9oczd.webp
 
 ### ספר טלפון השקוף
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/spr-tlpvn-hshkvp-jm7pmq

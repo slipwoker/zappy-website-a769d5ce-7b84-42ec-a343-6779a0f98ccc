@@ -1,14 +1,14 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-04T18:52:07.447Z",
+  "generated_at": "2026-05-04T19:00:42.709Z",
   "base_url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app",
   "currency": "ILS",
   "count": 4,
   "products": [
     {
       "id": "e14fa96f-bf53-4e4d-974e-8c16620cadcb",
-      "slug": "chvltsh-am-hlvgv-shlnv-lfs5ue",
-      "name": "חולצה עם הלוגו שלנו",
+      "slug": "chvltsh-am-hlvgv-shlnv-mydh-18-95q1fp",
+      "name": "חולצה עם הלוגו שלנו מידה 18",
       "name_translations": {},
       "description": "",
       "short_description": "שימו לב המוצר לא זהה לתמונה כלל",
@@ -19,15 +19,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/image-product-image-1777920551332-ubo6bk.webp"
+        "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/product-enhanced-1777921176142-c9oczd.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/chvltsh-am-hlvgv-shlnv-lfs5ue",
+      "url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/chvltsh-am-hlvgv-shlnv-mydh-18-95q1fp",
       "categories": [
         "ביגוד"
       ],
-      "updated_at": "2026-05-04T18:51:36.573Z"
+      "updated_at": "2026-05-04T19:00:11.828Z"
     },
     {
       "id": "a3526415-0026-4512-a4a2-81961abb51e6",

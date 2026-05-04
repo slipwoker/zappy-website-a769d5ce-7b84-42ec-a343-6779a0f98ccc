@@ -5596,8 +5596,8 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ## Product Catalog
 
-### חולצה עם הלוגו שלנו
-URL: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/chvltsh-am-hlvgv-shlnv-lfs5ue
+### חולצה עם הלוגו שלנו מידה 18
+URL: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/chvltsh-am-hlvgv-shlnv-mydh-18-95q1fp
 Price: 80.00 ILS
 Availability: In stock
 
