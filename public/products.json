@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-04T19:04:15.292Z",
+  "generated_at": "2026-05-04T19:05:29.436Z",
   "base_url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app",
   "currency": "ILS",
   "count": 5,
   "products": [
     {
       "id": "716fdee8-057b-4d0e-9ac3-17b5add5f5f0",
-      "slug": "mslvl-avpnyym-svbb-yrvshlym-ktsr-ktdb8q",
+      "slug": "mslvl-avpnyym-svbb-yrvshlym-ktsr-r2c851",
       "name": "מסלול אופניים סובב ירושלים קצר",
       "name_translations": {},
       "description": "",
@@ -23,11 +23,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/mslvl-avpnyym-svbb-yrvshlym-ktsr-ktdb8q",
+      "url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/mslvl-avpnyym-svbb-yrvshlym-ktsr-r2c851",
       "categories": [
         "טיולים"
       ],
-      "updated_at": "2026-05-04T19:03:44.355Z"
+      "updated_at": "2026-05-04T19:05:09.999Z"
     },
     {
       "id": "e14fa96f-bf53-4e4d-974e-8c16620cadcb",
