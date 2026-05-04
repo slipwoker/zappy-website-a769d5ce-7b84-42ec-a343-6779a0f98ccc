@@ -5596,6 +5596,13 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ## Product Catalog
 
+### ספר טלפון השקוף
+URL: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/spr-tlpvn-hshkvp-jm7pmq
+Price: 28.00 ILS (sale, was 30.00 ILS)
+Availability: In stock
+
+---
+
 ### טיול ים אל ים
 URL: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/tyvl-ym-al-ym-4yhvsl
 Price: 250.00 ILS (sale, was 400.00 ILS)
