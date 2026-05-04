@@ -7,65 +7,65 @@
 ## Pages
 
 ### בית
-https://example.com
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app
 ברוכים הבאים לחנות הטיולים המקוונת שלנו! ספרים, חולצות ואביזרים לטיולים אונליין במחירים מעולים. הכל במקום אחד, משלוח מהיר ושירות מכל הלב. קנה עכשיו!
 
 ### חוויות
-https://example.com/experiences
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/experiences
 גלה חוויות טיולים בלתי נשכחות עם ציוד מקצועי, ספרי מדריך מובחרים וחולצות טיולים איכותיות. כל מה שצריך להפוך כל הרפתקה לרגע מושלם. הזמן עכשיו!
 
 ### אודות
-https://example.com/about
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/about
 אנחנו מאמינים שכל טיול מתחיל בלב. למד על החזון שלנו, הערכים שמנחים אותנו ולמה אלפי מטיילים בוחרים בחנות ציוד הטיולים שלנו לכל הרפתקה חדשה. הכר אותנו!
 
 ### צור קשר
-https://example.com/contact
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/contact
 יש שאלה על ספרים, חולצות או אביזרים לטיולים אונליין? צוות המומחים שלנו כאן בשבילך! צור קשר עכשיו וקבל ייעוץ אישי, מענה מהיר ושירות חם מכל הלב. נשמח לעזור!
 
 ### Products
-https://example.com/products
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/products
 המוצרים שלנו - ליובאוויטשער רופן- טיולים ובידור מכל הלב
 
 ### Cart
-https://example.com/cart
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://example.com/checkout
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/checkout
 תשלום
 
 ### Login
-https://example.com/login
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/login
 התחברות לקוחות
 
 ### Account
-https://example.com/account
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/account
 החשבון שלי
 
 ### Order Success
-https://example.com/order-success
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://example.com/product/:slug
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/:slug
 פרטי המוצר - ליובאוויטשער רופן- טיולים ובידור מכל הלב
 
 ### Category
-https://example.com/category/:slug
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/category/:slug
 מוצרים - ליובאוויטשער רופן- טיולים ובידור מכל הלב
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -75,23 +75,23 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 3**
 
 ### ספר טסט של איפיאל
-https://example.com/product/spr-tst-shl-aypyal-ltueqs
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/spr-tst-shl-aypyal-ltueqs
 - Price: 79.00 ILS (sale, was 100.00 ILS)
 - Availability: In stock
-- Image: https://example.com/assets/image-product-image-1777903022763-un5ebu.webp
+- Image: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/image-product-image-1777903022763-un5ebu.webp
 
 ### טיול בשביל ישראל (Copy)
-https://example.com/product/tyvl-bshbyl-yshral-copy-ow3fxd
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/tyvl-bshbyl-yshral-copy-ow3fxd
 - Price: 500.00 ILS (sale, was 800.00 ILS)
 - Availability: In stock
-- Image: https://example.com/assets/product-1777553168916-wdz66k.webp
+- Image: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/product-1777553168916-wdz66k.webp
 
 ### טיול בשביל ישראל
-https://example.com/product/tyvl-bshbyl-yshral-rutll0
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/tyvl-bshbyl-yshral-rutll0
 - Price: 500.00 ILS (sale, was 800.00 ILS)
 - Availability: In stock
 - Description: מירושלים לאילת, ירושלים לחרמון, כ28 יום. לגילאי 17 ומעלה בלבד
-- Image: https://example.com/assets/product-1777553168916-wdz66k.webp
+- Image: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/product-1777553168916-wdz66k.webp
 
 ---
 
@@ -109,8 +109,8 @@ https://example.com/product/tyvl-bshbyl-yshral-rutll0
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
-- Products (JSON): https://example.com/products.json
-- Products (Google Merchant RSS): https://example.com/product-feed.xml
+- Sitemap (XML): https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/sitemap.xml
+- Robots: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/llms-full.txt
+- Products (JSON): https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/products.json
+- Products (Google Merchant RSS): https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product-feed.xml
