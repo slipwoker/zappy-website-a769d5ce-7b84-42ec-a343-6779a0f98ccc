@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 6**
+**Total active products: 7**
+
+### מסלול אופניים מקניון איילון עד רדינג 
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/mslvl-avpnyym-mknyvn-ayylvn-ad-rdyng-tci4nn
+- Price: 86.00 ILS
+- Availability: In stock
+- Category: טיולים
+- Description: מסלול כ40 דקות
+- Image: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/image-product-image-1777929555733-9clim9.webp
 
 ### טיול מסלול נחל אוג
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/tyvl-mslvl-nchl-avg-i0bfuw
