@@ -5596,6 +5596,13 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ## Product Catalog
 
+### מסלול אופניים סובב ירושלים קצר
+URL: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/mslvl-avpnyym-svbb-yrvshlym-ktsr-ktdb8q
+Price: 100.00 ILS
+Availability: In stock
+
+---
+
 ### חולצה עם הלוגו שלנו מידה 18
 URL: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/chvltsh-am-hlvgv-shlnv-mydh-18-95q1fp
 Price: 80.00 ILS

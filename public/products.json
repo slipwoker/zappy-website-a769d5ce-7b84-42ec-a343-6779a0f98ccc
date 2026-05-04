@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-04T19:00:42.709Z",
+  "generated_at": "2026-05-04T19:04:15.292Z",
   "base_url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app",
   "currency": "ILS",
-  "count": 4,
+  "count": 5,
   "products": [
+    {
+      "id": "716fdee8-057b-4d0e-9ac3-17b5add5f5f0",
+      "slug": "mslvl-avpnyym-svbb-yrvshlym-ktsr-ktdb8q",
+      "name": "מסלול אופניים סובב ירושלים קצר",
+      "name_translations": {},
+      "description": "",
+      "short_description": "מסלול עם אופניים למשך 4 שעות",
+      "sku": null,
+      "brand": null,
+      "price": 100,
+      "base_price": 100,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/image-product-image-1777921377833-8kpht5.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/mslvl-avpnyym-svbb-yrvshlym-ktsr-ktdb8q",
+      "categories": [
+        "טיולים"
+      ],
+      "updated_at": "2026-05-04T19:03:44.355Z"
+    },
     {
       "id": "e14fa96f-bf53-4e4d-974e-8c16620cadcb",
       "slug": "chvltsh-am-hlvgv-shlnv-mydh-18-95q1fp",

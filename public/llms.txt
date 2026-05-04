@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 4**
+**Total active products: 5**
+
+### מסלול אופניים סובב ירושלים קצר
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/mslvl-avpnyym-svbb-yrvshlym-ktsr-ktdb8q
+- Price: 100.00 ILS
+- Availability: In stock
+- Category: טיולים
+- Description: מסלול עם אופניים למשך 4 שעות
+- Image: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/image-product-image-1777921377833-8kpht5.webp
 
 ### חולצה עם הלוגו שלנו מידה 18
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/chvltsh-am-hlvgv-shlnv-mydh-18-95q1fp
