@@ -6,53 +6,53 @@
 
 ## Pages
 
-### בית
+### ספרים — ליובאוויטשער רופן- טיולים ובידור מכל הלב
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app
 ברוכים הבאים לחנות הטיולים המקוונת שלנו! ספרים, חולצות ואביזרים לטיולים אונליין במחירים מעולים. הכל במקום אחד, משלוח מהיר ושירות מכל הלב. קנה עכשיו!
 
-### חוויות
+### חוויות שלא תשכח לעולם — ליובאוויטשער רופן- טיולים ובידור מכל הלב
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/experiences
 גלה חוויות טיולים בלתי נשכחות עם ציוד מקצועי, ספרי מדריך מובחרים וחולצות טיולים איכותיות. כל מה שצריך להפוך כל הרפתקה לרגע מושלם. הזמן עכשיו!
 
-### אודות
+### הסיפור שמאחורי האהבה לטיולים — ליובאוויטשער רופן- טיולים ובידור מכל הלב
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/about
 אנחנו מאמינים שכל טיול מתחיל בלב. למד על החזון שלנו, הערכים שמנחים אותנו ולמה אלפי מטיילים בוחרים בחנות ציוד הטיולים שלנו לכל הרפתקה חדשה. הכר אותנו!
 
-### צור קשר
-https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/contact
-יש שאלה על ספרים, חולצות או אביזרים לטיולים אונליין? צוות המומחים שלנו כאן בשבילך! צור קשר עכשיו וקבל ייעוץ אישי, מענה מהיר ושירות חם מכל הלב. נשמח לעזור!
-
-### Products
+### מוצרים
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/products
 המוצרים שלנו - ליובאוויטשער רופן- טיולים ובידור מכל הלב
 
-### Cart
+### עגלת קניות
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/cart
 עגלת הקניות שלך
 
-### Checkout
+### תשלום
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/checkout
 תשלום
 
-### Login
+### התחברות
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/login
 התחברות לקוחות
 
-### Account
+### החשבון שלי
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/account
 החשבון שלי
 
-### Order Success
+### ההזמנה התקבלה!
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/order-success
 תודה על ההזמנה
 
-### Product Detail
+### פרטי המוצר
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/:slug
 פרטי המוצר - ליובאוויטשער רופן- טיולים ובידור מכל הלב
 
-### Category
+### מוצרים
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/category/:slug
 מוצרים - ליובאוויטשער רופן- טיולים ובידור מכל הלב
+
+### דבר איתנו ונצא לדרך יחד — ליובאוויטשער רופן- טיולים ובידור מכל הלב
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/contact
+יש שאלה על ספרים, חולצות או אביזרים לטיולים אונליין? צוות המומחים שלנו כאן בשבילך! צור קשר עכשיו וקבל ייעוץ אישי, מענה מהיר ושירות חם מכל הלב. נשמח לעזור!
 
 ## Legal & Policy
 
