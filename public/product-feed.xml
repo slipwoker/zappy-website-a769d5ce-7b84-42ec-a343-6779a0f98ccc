@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+  <channel>
+    <title>ליובאוויטשער רופן- טיולים ובידור מכל הלב</title>
+    <link>https://example.com</link>
+    <description>Product feed for ליובאוויטשער רופן- טיולים ובידור מכל הלב</description>
+    <lastBuildDate>Mon, 04 May 2026 13:58:17 GMT</lastBuildDate>
+    <item>
+      <g:id>965e1e1e-679d-4463-b0f6-293ca22e6f72</g:id>
+      <g:title>ספר טסט של איפיאל</g:title>
+      <g:description>ספר טסט של איפיאל</g:description>
+      <g:link>https://example.com/product/spr-tst-shl-aypyal-ltueqs</g:link>
+      <g:image_link>https://example.com/assets/image-product-image-1777903022763-un5ebu.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>79.00 ILS</g:price>
+      <g:sale_price>79.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>ליובאוויטשער רופן- טיולים ובידור מכל הלב</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>586a0b4e-20c6-42ac-83df-4cc28cffeb30</g:id>
+      <g:title>טיול בשביל ישראל (Copy)</g:title>
+      <g:description>טיול בשביל ישראל (Copy)</g:description>
+      <g:link>https://example.com/product/tyvl-bshbyl-yshral-copy-ow3fxd</g:link>
+      <g:image_link>https://example.com/assets/product-1777553168916-wdz66k.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>500.00 ILS</g:price>
+      <g:sale_price>500.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>ליובאוויטשער רופן- טיולים ובידור מכל הלב</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>3409af40-c1be-4e2c-8f02-2290ff1adbeb</g:id>
+      <g:title>טיול בשביל ישראל</g:title>
+      <g:description>מירושלים לאילת, ירושלים לחרמון, כ28 יום. לגילאי 17 ומעלה בלבד</g:description>
+      <g:link>https://example.com/product/tyvl-bshbyl-yshral-rutll0</g:link>
+      <g:image_link>https://example.com/assets/product-1777553168916-wdz66k.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>500.00 ILS</g:price>
+      <g:sale_price>500.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>ליובאוויטשער רופן- טיולים ובידור מכל הלב</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+  </channel>
+</rss>

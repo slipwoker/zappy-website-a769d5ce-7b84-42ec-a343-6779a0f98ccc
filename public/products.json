@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org",
+  "generated_at": "2026-05-04T13:58:17.507Z",
+  "base_url": "https://example.com",
+  "currency": "ILS",
+  "count": 3,
+  "products": [
+    {
+      "id": "965e1e1e-679d-4463-b0f6-293ca22e6f72",
+      "slug": "spr-tst-shl-aypyal-ltueqs",
+      "name": "ספר טסט של איפיאל",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 79,
+      "base_price": 100,
+      "sale_price": 79,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/image-product-image-1777903022763-un5ebu.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/spr-tst-shl-aypyal-ltueqs",
+      "categories": [],
+      "updated_at": "2026-05-04T13:57:14.409Z"
+    },
+    {
+      "id": "586a0b4e-20c6-42ac-83df-4cc28cffeb30",
+      "slug": "tyvl-bshbyl-yshral-copy-ow3fxd",
+      "name": "טיול בשביל ישראל (Copy)",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 500,
+      "base_price": 800,
+      "sale_price": 500,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1777553168916-wdz66k.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/tyvl-bshbyl-yshral-copy-ow3fxd",
+      "categories": [],
+      "updated_at": "2026-04-30T13:03:42.993Z"
+    },
+    {
+      "id": "3409af40-c1be-4e2c-8f02-2290ff1adbeb",
+      "slug": "tyvl-bshbyl-yshral-rutll0",
+      "name": "טיול בשביל ישראל",
+      "name_translations": {},
+      "description": "",
+      "short_description": "מירושלים לאילת, ירושלים לחרמון, כ28 יום.\nלגילאי 17 ומעלה בלבד",
+      "sku": null,
+      "brand": null,
+      "price": 500,
+      "base_price": 800,
+      "sale_price": 500,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1777553168916-wdz66k.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/tyvl-bshbyl-yshral-rutll0",
+      "categories": [],
+      "updated_at": "2026-04-30T12:46:18.338Z"
+    }
+  ]
+}

@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# ליובאוויטשער רופן- טיולים ובידור מכל הלב — Generative Engine Optimization Map
+
+> אתר חנות אונליין
 
 ---
 
@@ -68,12 +70,47 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
-# Business Context (for LLM understanding)
+## Products
 
-## About Business
+**Total active products: 3**
+
+### ספר טסט של איפיאל
+https://example.com/product/spr-tst-shl-aypyal-ltueqs
+- Price: 79.00 ILS (sale, was 100.00 ILS)
+- Availability: In stock
+- Image: https://example.com/assets/image-product-image-1777903022763-un5ebu.webp
+
+### טיול בשביל ישראל (Copy)
+https://example.com/product/tyvl-bshbyl-yshral-copy-ow3fxd
+- Price: 500.00 ILS (sale, was 800.00 ILS)
+- Availability: In stock
+- Image: https://example.com/assets/product-1777553168916-wdz66k.webp
+
+### טיול בשביל ישראל
+https://example.com/product/tyvl-bshbyl-yshral-rutll0
+- Price: 500.00 ILS (sale, was 800.00 ILS)
+- Availability: In stock
+- Description: מירושלים לאילת, ירושלים לחרמון, כ28 יום. לגילאי 17 ומעלה בלבד
+- Image: https://example.com/assets/product-1777553168916-wdz66k.webp
+
 ---
 
-# Additional Resources
+# Business Context (for LLM understanding)
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+## About ליובאוויטשער רופן- טיולים ובידור מכל הלב
+אתר חנות אונליין
+
+## Target Audience
+
+## Industry
+טיולים ובידור
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
