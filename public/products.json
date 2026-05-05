@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-05T21:25:10.513Z",
+  "generated_at": "2026-05-05T21:32:19.537Z",
   "base_url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app",
   "currency": "ILS",
-  "count": 10,
+  "count": 11,
   "products": [
+    {
+      "id": "176e4474-8784-4015-9d06-5020fff6c023",
+      "slug": "tyk-ltyvl-90-lytr-togeh6",
+      "name": "תיק לטיול 90 ליטר",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 120,
+      "base_price": 200,
+      "sale_price": 120,
+      "currency": "ILS",
+      "images": [
+        "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/product-1778016677233-gswwn.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/tyk-ltyvl-90-lytr-togeh6",
+      "categories": [
+        "מוצרי טיול ומוצרי חיי יום יום"
+      ],
+      "updated_at": "2026-05-05T21:31:48.559Z"
+    },
     {
       "id": "c49233cf-0e0f-44a9-9708-98bec95968d6",
       "slug": "gz-lkyrt-gz-nyydt-fjuinj",

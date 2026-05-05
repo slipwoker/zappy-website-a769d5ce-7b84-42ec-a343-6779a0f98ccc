@@ -76,7 +76,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 10**
+**Total active products: 11**
+
+### תיק לטיול 90 ליטר
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/tyk-ltyvl-90-lytr-togeh6
+- Price: 120.00 ILS (sale, was 200.00 ILS)
+- Availability: In stock
+- Category: מוצרי טיול ומוצרי חיי יום יום
+- Image: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/product-1778016677233-gswwn.webp
 
 ### גז לכירת גז ניידת
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/gz-lkyrt-gz-nyydt-fjuinj
