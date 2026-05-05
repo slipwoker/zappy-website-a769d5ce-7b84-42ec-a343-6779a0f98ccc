@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-05T11:44:39.221Z",
+  "generated_at": "2026-05-05T11:52:40.549Z",
   "base_url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app",
   "currency": "ILS",
-  "count": 7,
+  "count": 8,
   "products": [
+    {
+      "id": "a36c3391-8741-4370-a4b6-d3bc0a06fb54",
+      "slug": "rkb-hvblh-lgv-lego-g12bgh",
+      "name": "רכב הובלה לגו LEGO",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 139,
+      "base_price": 139,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/product-enhanced-1777981898500-nofv8c.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/rkb-hvblh-lgv-lego-g12bgh",
+      "categories": [
+        "מוצרי טיול ומוצרי חיי יום יום"
+      ],
+      "updated_at": "2026-05-05T11:52:09.268Z"
+    },
     {
       "id": "a1090490-d8b7-4516-82a6-80801f34a2a0",
       "slug": "mslvl-avpnyym-mknyvn-ayylvn-ad-rdyng-tci4nn",

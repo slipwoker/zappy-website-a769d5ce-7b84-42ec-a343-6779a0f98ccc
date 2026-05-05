@@ -76,7 +76,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 7**
+**Total active products: 8**
+
+### רכב הובלה לגו LEGO
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/rkb-hvblh-lgv-lego-g12bgh
+- Price: 139.00 ILS
+- Availability: Out of stock
+- Category: מוצרי טיול ומוצרי חיי יום יום
+- Image: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/product-enhanced-1777981898500-nofv8c.webp
 
 ### מסלול אופניים מקניון איילון עד רדינג 
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/mslvl-avpnyym-mknyvn-ayylvn-ad-rdyng-tci4nn
