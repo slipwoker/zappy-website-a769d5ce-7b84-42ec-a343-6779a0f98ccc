@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-05T12:00:43.491Z",
+  "generated_at": "2026-05-05T21:25:10.513Z",
   "base_url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app",
   "currency": "ILS",
-  "count": 9,
+  "count": 10,
   "products": [
+    {
+      "id": "c49233cf-0e0f-44a9-9708-98bec95968d6",
+      "slug": "gz-lkyrt-gz-nyydt-fjuinj",
+      "name": "גז לכירת גז ניידת",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 30,
+      "base_price": 30,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/product-enhanced-1778016173135-oe2b4x.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/gz-lkyrt-gz-nyydt-fjuinj",
+      "categories": [
+        "מוצרי טיול ומוצרי חיי יום יום"
+      ],
+      "updated_at": "2026-05-05T21:24:39.717Z"
+    },
     {
       "id": "b6424014-16d0-48af-ad67-0c559ee0554e",
       "slug": "kyrt-gz-nyydt-lpyknyg-4n1uau",
