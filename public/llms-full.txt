@@ -6808,6 +6808,13 @@ Description: ליובאוויטשער רופן- טיולים ובידור מכל
 
 ## Product Catalog
 
+### מסלול שביל הגולן
+URL: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/mslvl-shbyl-hgvln-kk1vtg
+Price: 500.00 ILS
+Availability: In stock
+
+---
+
 ### תיק לטיול 90 ליטר
 URL: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/tyk-ltyvl-90-lytr-togeh6
 Price: 120.00 ILS (sale, was 200.00 ILS)

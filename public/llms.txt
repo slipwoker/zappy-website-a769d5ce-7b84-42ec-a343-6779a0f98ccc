@@ -80,7 +80,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 11**
+**Total active products: 12**
+
+### מסלול שביל הגולן
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/mslvl-shbyl-hgvln-kk1vtg
+- Price: 500.00 ILS
+- Availability: In stock
+- Description: 5 ימי הליכה
+- Image: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/image-product-image-1778058197389-5qsf26.webp
 
 ### תיק לטיול 90 ליטר
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/tyk-ltyvl-90-lytr-togeh6
