@@ -80,7 +80,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 12**
+**Total active products: 13**
+
+### נעלי טיולים לגברים
+https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/naly-tyvlym-lgbrym-hb2utj
+- Price: 140.00 ILS
+- Availability: In stock
+- Category: מוצרי טיול ומוצרי חיי יום יום
+- Description: ניתן לבחור מידה בטל' 0557706527
+- Image: https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/product-1778058973076-kzd4ar.webp
 
 ### מסלול שביל הגולן
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/mslvl-shbyl-hgvln-kk1vtg

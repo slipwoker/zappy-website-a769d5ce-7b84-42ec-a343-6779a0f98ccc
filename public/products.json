@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T09:04:21.730Z",
+  "generated_at": "2026-05-06T09:17:00.435Z",
   "base_url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app",
   "currency": "ILS",
-  "count": 12,
+  "count": 13,
   "products": [
+    {
+      "id": "45f1f95c-2073-403b-831b-11826b15601a",
+      "slug": "naly-tyvlym-lgbrym-hb2utj",
+      "name": "נעלי טיולים לגברים",
+      "name_translations": {},
+      "description": "",
+      "short_description": "ניתן לבחור מידה בטל' 0557706527",
+      "sku": null,
+      "brand": null,
+      "price": 140,
+      "base_price": 140,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/assets/product-1778058973076-kzd4ar.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/naly-tyvlym-lgbrym-hb2utj",
+      "categories": [
+        "מוצרי טיול ומוצרי חיי יום יום"
+      ],
+      "updated_at": "2026-05-06T09:16:29.638Z"
+    },
     {
       "id": "de7c9605-06e8-48a9-b717-2a51a16f48fc",
       "slug": "mslvl-shbyl-hgvln-kk1vtg",
