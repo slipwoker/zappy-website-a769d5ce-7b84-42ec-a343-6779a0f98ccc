@@ -18,35 +18,35 @@ https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/experiences
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/about
 אנחנו מאמינים שכל טיול מתחיל בלב. למד על החזון שלנו, הערכים שמנחים אותנו ולמה אלפי מטיילים בוחרים בחנות ציוד הטיולים שלנו לכל הרפתקה חדשה. הכר אותנו!
 
-### מוצרים
+### Products
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/products
 המוצרים שלנו - ליובאוויטשער רופן- טיולים ובידור מכל הלב
 
-### עגלת קניות
+### Cart
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/cart
 עגלת הקניות שלך
 
-### תשלום
+### Checkout
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/checkout
 תשלום
 
-### התחברות
+### Login
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/login
 התחברות לקוחות
 
-### החשבון שלי
+### Account
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/account
 החשבון שלי
 
-### ההזמנה התקבלה!
+### Order Success
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/order-success
 תודה על ההזמנה
 
-### פרטי המוצר
+### Product Detail
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/product/:slug
 פרטי המוצר - ליובאוויטשער רופן- טיולים ובידור מכל הלב
 
-### מוצרים
+### Category
 https://lubavitcher-rufn-tiyulim-ubidu.zappy5.app/category/:slug
 מוצרים - ליובאוויטשער רופן- טיולים ובידור מכל הלב
 
