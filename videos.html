@@ -2610,7 +2610,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "a769d5ce-7b84-42ec-a343-6779a0f98ccc";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
+<script>window.ZAPPY_WEBSITE_ID = "a769d5ce-7b84-42ec-a343-6779a0f98ccc";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -2646,13 +2646,13 @@
         <!-- Categories will be loaded dynamically -->
       </ul>
     </li>
-  <li><a href="/experiences">חוויות</a></li><li><a href="/about">אודות</a></li><li><a href="/contact">צור קשר</a></li><li><a href="/videos" class="nav-link">סרטונים</a></li><li><a href="/video-wall" class="nav-link">וידאו</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="cart-count">0</span></a><div class="nav-search-box">
+  <li><a href="/experiences">חוויות</a></li><li><a href="/about">אודות</a></li><li><a href="/contact">צור קשר</a></li><li><a href="/videos" class="nav-link">סרטונים</a></li><li><a href="/video-wall" class="nav-link">וידאו</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg><span class="cart-count">0</span></a><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
-      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
     </button>
     <div class="nav-search-results" id="nav-search-results"></div>
-  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></button></div></div>
+  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg></button></div></div>
 
     
 
@@ -3141,7 +3141,7 @@
       <div class="videos-glass-card">
         <!-- Main video thumbnail -->
         <div class="videos-main-thumb" style="margin-left: -20px !important; margin-right: -20px !important; margin-top: -20px !important; width: calc(100% + 40px) !important; max-width: calc(100% + 40px) !important;" data-zappy-mobile-bleed="1">
-          <img data-hero-bg="true" data-context="A vibrant, high-energy screenshot or thumbnail from a family travel and entertainment video in Israel — showing a joyful family group on a scenic outdoor excursion, bright landscape, warm sunlight, lush greenery or a famous Israeli landmark in the background, cinematic travel photography style" width="600" height="340" src="/assets/section-hero-videos-hero-image-1.webp" alt="סרטון טיול משפחתי מרהיב בטבע הישראלי" class="videos-main-thumb-img" data-hero-background="true" data-element-type="image" data-element-id="img-1777931013573-31omy6c27" style="object-position: 50% 50%">
+          <img data-hero-bg="true" data-context="A vibrant, high-energy screenshot or thumbnail from a family travel and entertainment video in Israel — showing a joyful family group on a scenic outdoor excursion, bright landscape, warm sunlight, lush greenery or a famous Israeli landmark in the background, cinematic travel photography style" width="600" height="340" src="/assets/section-hero-videos-hero-image-1.webp" alt="סרטון טיול משפחתי מרהיב בטבע הישראלי" class="videos-main-thumb-img" data-zappy-editable-image="true" data-hero-background="true" data-element-type="image" data-element-id="img-1777931013573-31omy6c27" style="object-position: 50% 50%">
           <!-- Play icon overlay -->
           <div class="videos-play-overlay" aria-hidden="true">
             <div class="videos-play-btn">
@@ -3179,7 +3179,7 @@
         <!-- Card footer -->
         <div class="videos-card-footer">
           <i class="fa-brands fa-youtube videos-yt-icon" aria-hidden="true" data-element-type="icon" data-element-id="icon-1777931013572-t2fazjope" data-icon-type="fontawesome"></i>
-          <span >ערוץ ליובאוויטשער רופן ביוטיוב</span>
+          <span style="">ערוץ ליובאוויטשער רופן ביוטיוב</span>
           <a href="https://youthttps://www.youtube.com/channel/UCqHCLmALxq5QN7rkyaDODugube.com" target="_blank" rel="noopener noreferrer" class="videos-yt-link btn btn-ghost" data-native-element="true" data-element-id="btn-1777931043505-rbbduk4re" data-element-type="button" style="outline: none; color: rgb(217, 164, 65) !important; border-color: transparent !important; background-color: transparent !important; background-image: none !important;">לערוץ <i class="fa-solid fa-arrow-left"></i></a>
         </div>
       </div>
@@ -3223,29 +3223,14 @@
       </div>
     </div>
     <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" data-grid-item-index="1">
-      <div class="zappy-inserted-element" id="zappy-element-1777930853560-3489b471h" data-element-id="zappy-element-1777930853560-3489b471h" data-element-type="video" data-zappy-newly-inserted="true" style="margin-top: 20px; margin-bottom: 20px; display: flex; justify-content: center; cursor: pointer;" data-video-editable="true">
+      <div class="zappy-inserted-element" id="zappy-element-1777930853560-3489b471h" data-element-id="zappy-element-1777930853560-3489b471h" data-element-type="video" data-zappy-newly-inserted="true" style="margin-top: 20px; margin-bottom: 20px; display: flex; justify-content: center; cursor: pointer; text-align: center;" data-video-editable="true">
       <div style="width: 100%; max-width: 350px; display: block; margin-left: auto; margin-right: auto;">
-        <div class="video-placeholder" style="position: relative; width: 100%; max-width: 350px; height: 0px; padding-bottom: 56.25%; background: #1F3A5F08; border: 3px solid #1F3A5F; border-radius: 16px; overflow: hidden; cursor: pointer;" data-element-type="video" data-element-id="zappy-element-1777930853560-3489b471h" data-placeholder="video-placeholder" id="zappy-element-1777930853560-3489b471h-inner" data-video-editable="true">
-          <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; text-align: center;">
-            <svg style="width: 120px; height: 120px; display: block;" viewBox="0 0 270 265" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="2" y="2" width="266" height="261" rx="40" stroke="#1F3A5F" stroke-width="4"></rect>
-      <g clip-path="url(#clip0_201_1806)">
-        <path d="M102.5 91L112.5 82.5L123.5 81.5L175.5 119L182.5 131.5L178.5 142L125.5 180.5L116 183.5L109 181L102 172L102.5 91Z" fill="#FFE8F4"></path>
-        <path d="M177.228 117.668L127.264 81.483C121.838 77.496 114.723 76.929 108.729 79.9665C102.636 83.058 99 88.98 99 95.811V168.194C99 175.029 102.641 180.951 108.734 184.038C111.335 185.357 114.089 186.009 116.82 186.009C120.483 186.009 124.105 184.835 127.251 182.526L177.223 146.337L177.237 146.328C181.849 142.944 184.495 137.724 184.495 132C184.495 126.276 181.849 121.056 177.223 117.668H177.228ZM174.582 142.692L124.605 178.886C120.492 181.91 115.322 182.328 110.772 180.024C106.218 177.716 103.504 173.297 103.504 168.194V95.8065C103.504 90.708 106.223 86.289 110.772 83.976C112.703 82.995 114.736 82.5 116.82 82.5C119.587 82.5 122.283 83.4045 124.618 85.1235L174.587 121.308C178.029 123.833 180.005 127.73 180.005 132C180.005 136.271 178.034 140.163 174.587 142.692H174.582Z" fill="#1F3A5F"></path>
-      </g>
-      <defs>
-        <clipPath id="clip0_201_1806">
-          <rect width="108" height="108" fill="white" transform="translate(81 78)"></rect>
-        </clipPath>
-      </defs>
-    </svg>
-          </div>
-        </div>
+        <div class="video-placeholder" style="position: relative; width: 100%; max-width: 800px; height: 0px; padding-bottom: 56.25%; background: rgb(0, 0, 0); border-radius: 8px; overflow: hidden;" data-element-type="video" data-element-id="zappy-element-1777930853560-3489b471h" data-placeholder="video-placeholder" id="zappy-element-1777930853560-3489b471h-inner" data-video-editable="true"><iframe src="https://www.youtube.com/embed/kWYH4y8ELi0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
       </div>
     </div>
       <div style="padding: 20px;">
-        <h3 style="font-size: 20px; font-weight: 600; color: #1F2937; margin-bottom: 10px; font-family: system-ui, -apple-system, sans-serif;">כותרת כרטיס 2</h3>
-        <p style="font-size: 15px; line-height: 1.6; color: #1F2937; opacity: 0.8; font-family: system-ui, -apple-system, sans-serif;">טקסט תיאור כרטיס נמצא כאן</p>
+        <h3 style="font-size: 20px; font-weight: 600; color: rgb(31, 41, 55); margin-bottom: 10px; font-family: system-ui, -apple-system, sans-serif;">הבית של ניסים קחלון</h3>
+        
       </div>
     </div>
     <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" data-grid-item-index="2">
@@ -3270,7 +3255,7 @@
 
     <!-- Section Header -->
     <div class="videos-gallery-header">
-      <h2 class="videos-gallery-title" >סרטונים מהשטח</h2>
+      <h2 class="videos-gallery-title" style="">סרטונים מהשטח</h2>
       <p class="videos-gallery-subtitle">הצצה אמיתית לחוויות שאנחנו יוצרים — טיולים, בידור ורגעים שנשארים בלב לנצח</p>
       <div class="videos-gallery-rule" aria-hidden="true"></div>
     </div>
@@ -3280,7 +3265,7 @@
     <!-- /Grid -->
 
     <!-- Footer CTA Row -->
-    <div class="videos-gallery-footer" >
+    <div class="videos-gallery-footer" style="">
       <span class="videos-gallery-footer-text">רוצים לראות עוד? <a class="videos-gallery-footer-link" href="/contact">צרו איתנו קשר</a> לקבלת המלצות מותאמות אישית.</span>
     </div>
 
@@ -3439,7 +3424,7 @@
         <div class="videos-faq-accent-bar" aria-hidden="true"></div>
         <h2 class="videos-faq-heading">שאלות נפוצות</h2>
         <p class="videos-faq-lead">כאן תמצאו תשובות לשאלות הנפוצות ביותר שעולות לפני הזמנת טיול או חוויית בידור דרכנו. אנחנו מאמינים בשקיפות מלאה ובתהליך הזמנה ברור ונוח.</p>
-        <div class="videos-faq-contact-nudge" >
+        <div class="videos-faq-contact-nudge" style="">
           <span class="videos-faq-contact-icon" aria-hidden="true">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg" aria-hidden="true" style="cursor: pointer;"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
           </span>
@@ -3623,10 +3608,10 @@
   
   <div data-integration="accessibility:toolbar"></div>
 
-<div class="zappy-qv-overlay" id="zappy-qv-overlay" hidden></div>
-<div class="zappy-qv-modal" id="zappy-qv-modal" role="dialog" aria-modal="true" aria-label="תצוגה מהירה" hidden>
+<div class="zappy-qv-overlay" id="zappy-qv-overlay" hidden=""></div>
+<div class="zappy-qv-modal" id="zappy-qv-modal" role="dialog" aria-modal="true" aria-label="תצוגה מהירה" hidden="">
   <button type="button" class="zappy-qv-close" id="zappy-qv-close" aria-label="סגור">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
   </button>
   <div class="zappy-qv-content" id="zappy-qv-content"></div>
 </div>
